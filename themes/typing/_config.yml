@@ -8,13 +8,14 @@ dark: false
 menu:
   Home: /
   Archives: /archives
-  Wiki: /wiki
+  Wiki: https://wiki.geekplux.com
   Presentation: /presentation
-  Project : /project
-  About: /about
-  Donate: /donate
+  Project : https://project.geekplux.com
+  About: https://about.geekplux.com
+  Donate: https://donate.geekplux.com
   关于: /aboutme
   扯淡集: /gab
+  RSS: /atom.xml
 rss: /atom.xml
 
 # Content
@@ -38,11 +39,11 @@ description: I am a web developer, open-source contributor, student and lifelong
 icons: false
 links:
   Blog: /archives
-  Wiki: /wiki
+  Wiki: https://wiki.geekplux.com
   GitHub: https://github.com/geekplux
   Instagram: https://www.instagram.com/geekplux
   Twitter : https://twitter.com/geekplux
-  About: /about
+  About: https://about.geekplux.com
   关于: /aboutme
 
 # nav position (top, left. top is default)
