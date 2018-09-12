@@ -186,7 +186,7 @@ Google 搜索桑基图，可以搜到一大堆定义。简而言之，桑基图�
 
 ## 三、具体项目中的交互
 
-我参与的 [UBA (User Behavior Analytics)](https://uba.alibaba-inc.com) 项目中，正好用到了桑基图。除了上述的图形绘制之外，主要复杂的是交互。
+我参与的 **UBA (User Behavior Analytics 内部项目)** 项目中，正好用到了桑基图。除了上述的图形绘制之外，主要复杂的是交互。
 
 ![](http://ovad4r7yz.bkt.gdipper.com/2tayi-9gtn4.gif)
 ![](http://7b1evr.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202018-08-22%20%E4%B8%8B%E5%8D%883.04.33.png)
