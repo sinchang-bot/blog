@@ -12,7 +12,7 @@ date: 2014-01-24 23:10:33
 
 - [Goodbye，我的大学](https://geekplux.com/2014/02/02/goodbye_my_university.html)
 - [毕业后的两年](https://geekplux.com/2016/02/15/two-years-after-graduated.html)
-- [研究生生涯总结](https://geekplux.com/2018/05/16/the-summary-of-graduate-career.html)
+- [研究生生涯总结](https://geekplux.com/2018/06/01/the-summary-of-graduate-career.html)
 
 ## 用的还行的
 

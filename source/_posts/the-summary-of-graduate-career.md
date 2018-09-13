@@ -9,7 +9,7 @@ tags:
 - Summary
 ---
 
-> 原文地址：[https://geekplux.com/2018/05/16/the-summary-of-graduate-career.html](https://geekplux.com/2018/05/16/the-summary-of-graduate-career.html)
+> 原文地址：[https://geekplux.com/2018/06/01/the-summary-of-graduate-career.html](https://geekplux.com/2018/06/01/the-summary-of-graduate-career.html)
 
 距离上次的总结，已经时隔两年，其实早就想花时间认真总结一下自己的研究生生涯。虽然断断续续写了很久，但一直没有一个身心皆静的时间来梳理。今天得空，坐在西湖边的长椅上，思绪纷飞，将其整理成文。时间跨度比较大，不免有些啰嗦，其中每一个小标题都能写篇小议论文了。
 

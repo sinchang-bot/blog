@@ -15,7 +15,7 @@ tags:
 ---
 
 
-> 本文作者 [GeekPlux](http://geekplux.com/)，首发于[前端外刊评论-Web 前端中的增强现实（AR）开发技术](https://qianduan.group/posts/5a5f89cb0cf6b624d2239c65)，博客地址：[http://geekplux.com/2018/01/18/augmented-reality-development-tech-in-web-frontend.html](http://geekplux.com/2018/01/16/augmented-reality-development-tech-in-web-frontend.html)。注明作者和地址即可转载。
+> 本文作者 [GeekPlux](http://geekplux.com/)，首发于[前端外刊评论-Web 前端中的增强现实（AR）开发技术](https://qianduan.group/posts/5a5f89cb0cf6b624d2239c65)，博客地址：[http://geekplux.com/2018/01/18/augmented-reality-development-tech-in-web-frontend.html](http://geekplux.com/2018/01/18/augmented-reality-development-tech-in-web-frontend.html)。注明作者和地址即可转载。
 
 增强现实（以下简称 AR）浪潮正滚滚而来，Web 浏览器作为人们最唾手可得的人机交互终端，正在大力发展 AR 技术。很多 Web 前端工程师也在寻求职业转型，于是我把我近半年的相关调研结果在此汇结成文。本文力求把目前前端方向的 AR 技术都罗列一遍，细节不赘述（*保证文章篇幅不过长*），只做概括和科普（*因此文章中的链接很多*），零零散散写了一个多月（拖延症），欢迎已经在从事该领域或研究的道友前来纠正补充。
 
