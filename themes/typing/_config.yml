@@ -13,7 +13,7 @@ menu:
   Project : https://project.geekplux.com
   About: https://about.geekplux.com
   Donate: https://donate.geekplux.com
-  关于: /aboutme
+  关于: /about
   扯淡集: /gab
   RSS: /atom.xml
 rss: /atom.xml
@@ -44,7 +44,7 @@ links:
   Instagram: https://www.instagram.com/geekplux
   Twitter : https://twitter.com/geekplux
   About: https://about.geekplux.com
-  关于: /aboutme
+  关于: /about
 
 # nav position (top, left. top is default)
 nav: left

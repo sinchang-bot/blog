@@ -2,12 +2,17 @@ title: 关于我
 date: 2014-01-24 23:10:33
 ---
 
-
 一个简单的代码爱好者。
 常年混迹于网络，一直用GeekPlux这个昵称，90后。
 
 
-[博客](http://geekplux.com/) -- [Wiki](http://geekplux.com/wiki) --  [Github](https://github.com/geekplux) --  [Weibo](http://weibo.com/cloud285) -- [Twitter](https://twitter.com/GeekPlux) -- [LinkedIn](https://cn.linkedin.com/in/geekplux) -- <a href="mailto:geekplux@gmail.com">Mail</a>
+[博客](http://geekplux.com/) -- [Wiki](http://geekplux.com/wiki) --  [Github](https://github.com/geekplux) --  [Weibo](http://weibo.com/cloud285) -- [Twitter](https://twitter.com/GeekPlux) -- [Telegram](https://t.me/geekplux_lab) -- [LinkedIn](https://cn.linkedin.com/in/geekplux) -- <a href="mailto:geekplux@gmail.com">Mail</a>
+
+## 一些啰嗦的人生阶段总结
+
+- [Goodbye，我的大学](https://geekplux.com/2014/02/02/goodbye_my_university.html)
+- [毕业后的两年](https://geekplux.com/2016/02/15/two-years-after-graduated.html)
+- [研究生生涯总结](https://geekplux.com/2018/05/16/the-summary-of-graduate-career.html)
 
 ## 用的还行的
 
@@ -61,6 +66,3 @@ date: 2014-01-24 23:10:33
 
 
 有什么想问我的，可以来 [AMA](https://github.com/geekplux/ama) 尽情发问。
-
-另外，我的公众号：**好奇害死猫**（haoqihaisimao_weixin），不定期更新:)
-![](http://7b1evr.com1.z0.glb.clouddn.com/qrcode_for_gh_2df3b33e3297_258.jpg)
