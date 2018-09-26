@@ -1,10 +1,13 @@
 title: netjsongraph.js – Google Summer of Code (GSoC) 2017 summary
 date: 2017-08-26 22:45:52
 categories:
+
 - Code
 - Visualization
 - Life
+
 tags:
+
 - Google Summer of Code
 - GSoC
 - Data Visualization
@@ -13,14 +16,14 @@ tags:
 - 数据可视化
 - 总结
 - Summary
----
 
+---
 
 > Posted in medium: https://medium.com/@GeekPlux/netjsongraph-js-google-summer-of-code-gsoc-2017-summary-b0239f4eb8a9
 
 Throughout the last three months, I was quite fortunate to work for [Freifunk][freifunk] on [netjsongraph.js][netjsongraph.js] under the guidance of my mentor [Federico Capoano](https://github.com/nemesisdesign). Thanks for this invaluable experience that I learned a lot of knowledge and use them in a practical project. Here is a summary of the work I have done during the Google Summer of Code (GSoC) 2017.
 
-![Google Summer of Code project page](http://ovad4r7yz.bkt.gdipper.com/gsocScreen%20Shot%202017-08-26%20at%2017.27.46.png)
+![Google Summer of Code project page](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/gsoc/project-page.png)
 
 ## Goal
 
@@ -30,7 +33,6 @@ Throughout the last three months, I was quite fortunate to work for [Freifunk][f
 - Rewrite it with WebGL ([#11](https://github.com/netjson/netjsongraph.js/issues/11), [#29](https://github.com/netjson/netjsongraph.js/issues/29), [#39](https://github.com/netjson/netjsongraph.js/issues/39), [#42](https://github.com/netjson/netjsongraph.js/issues/42), [#47](https://github.com/netjson/netjsongraph.js/issues/47))
 - Improve the performance ([#41](https://github.com/netjson/netjsongraph.js/issues/41), [#44](https://github.com/netjson/netjsongraph.js/issues/44), [#46](https://github.com/netjson/netjsongraph.js/issues/46))
 
-
 ## Achievement
 
 > - ##### Github Repository : [https://github.com/netjson/netjsongraph.js][netjsongraph.js]
@@ -38,9 +40,9 @@ Throughout the last three months, I was quite fortunate to work for [Freifunk][f
 
 You can browse all examples on GitHub pages. Some screen shots of the application:
 
-![basic example](http://ovad4r7yz.bkt.gdipper.com/Artboard%201.png)
+![basic example](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/gsoc/basic-example.png)
 
-![performance example](http://ovad4r7yz.bkt.gdipper.com/Screen%20Shot%202017-08-26%20at%2017.33.36.png)
+![performance example](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/gsoc/performance-example.png)
 
 The force-directed layout is usually used to visualize network data. It offers insights on the relationships between nodes and links. The previous version of [netjsongraph.js][netjsongraph.js] is implemented by [d3](https://d3js.org/) and it's rendered using SVG. It would be very slow if there were thousands or ten of thousands nodes or links. So I have to embrace the WebGL speeded up by GPU to have a better performance.
 
@@ -49,13 +51,13 @@ I have recorded my work in the blog every milestone:
 - [GSoC 2017-netjsongraph.js milestone 1](https://blog.freifunk.net/2017/06/29/gsoc-2017-netjsongraph-js-milestone-1/)
 - [GSoC 2017-netjsongraph.js milestone 2](https://blog.freifunk.net/2017/07/26/gsoc-2017-netjsongraph-js-milestone-2/)
 
-*BTW, It's a great management method to make members submit weekly reports and blog posts in [Freifunk][freifunk].*
+_BTW, It's a great management method to make members submit weekly reports and blog posts in [Freifunk][freifunk]._
 
 During the three months, there have been **116 commits** from me. I created a big Pull Request include them:
 
-![netjsongraph.js #48](http://ovad4r7yz.bkt.gdipper.com/Screen%20Shot%202017-08-26%20at%2016.28.07.png)
+![netjsongraph.js #48](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/gsoc/merge-request.png)
 
-![netjsongraph.js project panels](http://ovad4r7yz.bkt.gdipper.com/Screen%20Shot%202017-08-26%20at%2016.26.46.png)
+![netjsongraph.js project panels](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/gsoc/project.png)
 
 Almost all goals have achieved:
 
@@ -66,8 +68,7 @@ Almost all goals have achieved:
 - Added more interaction like hover (show nodes tooltips), click (show nodes or links information panel), pan and zoom
 - Improved performance
 
-Especially on performance aspect, it runs efficiently on Chrome reached **60FPS** under *5k nodes and 10k links*. And if you don't wanna animation, you can choose the static rendering layout.
-
+Especially on performance aspect, it runs efficiently on Chrome reached **60FPS** under _5k nodes and 10k links_. And if you don't wanna animation, you can choose the static rendering layout.
 
 ## Challenges
 
@@ -110,13 +111,11 @@ There are different complexity and cost in the different force-directed algorith
 
 More interactions and features should be added, and performance may be optimized by using new algorithm. I'd like to continue developing this project after GSoC.
 
-
 In the end, thanks for the great patience and guidance from my mentors. Thanks for Google to provide me with this rare chance to contribute to an open source community together with awesome members from all over the world. I really appreciate this invaluable experience accumulated this summer and I believe it will have the profound impact on my career and life.
 
+---
 
---------------
 本作品采用[知识共享 署名-非商业性使用-禁止演绎 4.0 国际 许可协议](http://creativecommons.org/licenses/by-nc-nd/4.0/)进行许可。
-
 
 [netjsongraph.js]: https://github.com/netjson/netjsongraph.js
 [freifunk]: https://freifunk.net/

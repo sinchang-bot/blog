@@ -1,8 +1,11 @@
 title: 数据可视化基础——视觉编码
 date: 2017-01-03 20:02:52
 categories:
+
 - Visualization
+
 tags:
+
 - Visualization
 - 可视化
 - 数据可视化
@@ -17,16 +20,13 @@ tags:
 - 笔记
 - 总结
 - Summary
+
 ---
-
-
 
 > 本系列「数据可视化基础」文章共三篇，介绍可视化中最基础、最重要的一些概念、理论。这篇为第三篇，主要介绍[视觉编码](http://geekplux.com/2017/01/03/basics-of-data-visualization-visual-encoding-principles.html)，另两篇则主讲[可视化流程](http://geekplux.com/2017/01/01/basics-of-data-visualization-the-process-model.html)和[数据模型](http://geekplux.com/2017/01/02/basics-of-data-visualization-data-model.html)，建议从可视化流程看起。
 > 原文地址：http://geekplux.com/2017/01/03/basics-of-data-visualization-visual-encoding-principles.html
 
-
 终于来到了最后一篇，前两篇的铺垫可能有点长，但是不种苗浇水怎能开枝散叶。可视化编码是可视化中的**核心内容**，本文会对其进行详细的讲解，尤其是**视觉编码**与**视觉通道**两个概念，如果其中遇到晦涩之处，不要心急，可囫囵吞枣直接往下看。
-
 
 ## 什么是视觉编码（visual encoding）
 
@@ -38,12 +38,11 @@ tags:
 
 编码二字，如果说**编**是指设计、映射的过程，那么码呢？**码**其实指的是一些图形符号。
 
-
 ## 图形能告诉我们什么
 
 在介绍各类图形符号之前，我们先谈谈：图形能告诉我们什么。
 
-![](http://7b1evr.com1.z0.glb.clouddn.com/basics-of-data-visualization/pic.png)
+![](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/basics-of-data-visualization/pic.png)
 
 仔细观察上方这个简单的图片，你能得得到什么信息？
 
@@ -61,21 +60,20 @@ tags:
 
 至此算是把**视觉通道**、**视觉编码**这两个概念讲清楚了。如果一个人说他想用四个通道来编码四个维度的数据，即可以翻译成他想用四种图形符号来对应这份数据表的四个列的信息。
 
-这里举个例子（例子来自于 [2][陈为 沈则潜 陶煜波. 数据可视化[M]. 电子工业出版社, 2013.](https://book.douban.com/subject/25760272/)）：
+这里举个例子（例子来自于 [2]陈为 沈则潜 陶煜波. 数据可视化[M]. 电子工业出版社, 2013.](https://book.douban.com/subject/25760272/)）：
 
-![例子来自于陈为 沈则潜 陶煜波《数据可视化》](http://7b1evr.com1.z0.glb.clouddn.com/basics-of-data-visualization/example.png)
+![例子来自于陈为 沈则潜 陶煜波《数据可视化》](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/basics-of-data-visualization/example.png)
 
 - 上图中图 A 表示了三个不同班级的数学平均分，用柱状图表示，柱状图的**高度**作为一个视觉通道，编码了数学平均分的*值*；柱状，这个**形状**作为一个视觉通道编码了数学平均分这一*属性*。
 - 图 B 中，我们想在 A 的基础上多展示语文平均分这一项数据（即增加了一个数据维度），则选用点这个**形状**通道编码这两个*属性*；点的**横坐标**编码语文平均分的*值*；点的**纵坐标**编码数学平均分的*值*。
 - 这时候发现图 B 中我们把班级这个数据维度给丢掉了，于是我们可以用**颜色**这一视觉通道来编码班级这个**属性**信息，如图 C。
 - 如果我们还想展示班级*人数*这一信息，则可以用**尺寸**这一视觉通道来编码，如图 D。
 
-
 ## 视觉编码中常用的视觉通道
 
 1967 年，Jacques Bertin 初版的《Semiology of Graphics》一书提出了图形符号与信息的对应关系（就是本文上一节的内容），奠定了可视化编码的理论基础。
 
-![Bertin J. Semiology of graphics: diagrams[C]// Conference on Computer Networks. 1983.](http://7b1evr.com1.z0.glb.clouddn.com/basics-of-data-visualization/signal.png)
+![Bertin J. Semiology of graphics: diagrams[C]// Conference on Computer Networks. 1983.](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/basics-of-data-visualization/signal.png)
 
 如上图所示，书中把图形符号分为两种：
 
@@ -85,7 +83,6 @@ tags:
 以上基本的图形符号共有 7 种。将其映射到点、线、面之后，就相当于有 21 种编码可用的视觉通道。后来人们还又补充了几种其他的视觉通道：**长度**、**面积**、**体积**、**透明度**、**模糊/聚焦**、**动画**等，所以可用的视觉通道其实太多了。
 
 而一般一份可视化作品可用到的视觉通道要尽可能得少，因为太多了反而会造成我们视觉系统的混乱，使我们获取信息更难。于是这就涉及到了视觉通道的设计原则。
-
 
 ## 视觉编码设计原则
 
@@ -103,8 +100,7 @@ tags:
 
 总结一下视觉通道与数据类型的对应关系，如下图所示：
 
-![视觉通道与数据类型的对应](http://7b1evr.com1.z0.glb.clouddn.com/basics-of-data-visualization/level.png)
-
+![视觉通道与数据类型的对应](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/basics-of-data-visualization/level.png)
 
 ### 视觉编码设计的两大原则
 
@@ -115,7 +111,7 @@ Mackinlay[4] 和 Tversky[5] 分别提出了两套可视化设计的原则，Mack
 
 下面这张图总结了视觉编码面对不同数据类型的优先级：
 
-![视觉编码面对不同数据类型的优先级](http://7b1evr.com1.z0.glb.clouddn.com/basics-of-data-visualization/level2.png)
+![视觉编码面对不同数据类型的优先级](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/basics-of-data-visualization/level2.png)
 
 如果要具体展开每项视觉通道来说，未免有点太繁琐，而且设计可视化编码除了视觉通道还需要考虑：
 
@@ -127,15 +123,14 @@ Mackinlay[4] 和 Tversky[5] 分别提出了两套可视化设计的原则，Mack
 
 以上每一项都很重要，之后有机会再写吧。这个可视化基础系列总算是完结了，文字虽然不多，但是搜索资料、读论文、总结等还是挺累的，希望你能有所收获。欢迎各位在我博客文末留言讨论（如果看不到评论框可能是因为你没有科学上网）。
 
-
 ## 参考文献
 
 - [1]Bertin J. Semiology of graphics: diagrams[C]// Conference on Computer Networks. 1983.
-- [2][陈为 沈则潜 陶煜波. 数据可视化[M]. 电子工业出版社, 2013.](https://book.douban.com/subject/25760272/)
-- [3][CSE512 Data Visualization (Spring 2016)](http://courses.cs.washington.edu/courses/cse512/16sp/)
+- [2]陈为 沈则潜 陶煜波. 数据可视化[M]. 电子工业出版社, 2013.](https://book.douban.com/subject/25760272/)
+- [3][cse512 data visualization (spring 2016)](http://courses.cs.washington.edu/courses/cse512/16sp/)
 - [4]Mackinlay, Jock. Automating the design of graphical presentations of relational information[J]. Acm Transactions on Graphics, 1986, 5(2):110-141.
 - [5]Tversky B, Morrison J B, Betrancourt M. Animation: Can it facilitate?[J]. International Journal of Human-Computer Studies, 2002, 57(4):247-262.
 
+---
 
---------------
 本作品采用[知识共享 署名-非商业性使用-禁止演绎 4.0 国际 许可协议](http://creativecommons.org/licenses/by-nc-nd/4.0/)进行许可。

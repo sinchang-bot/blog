@@ -1,9 +1,12 @@
 title: Web 前端中的增强现实（AR）开发技术
 date: 2018-01-18 00:24:21
 categories:
+
 - Web
 - Augmented Reality
+
 tags:
+
 - Web
 - WebGL
 - three.js
@@ -12,14 +15,14 @@ tags:
 - 前端
 - 总结
 - Summary
----
 
+---
 
 > 本文作者 [GeekPlux](http://geekplux.com/)，首发于[前端外刊评论-Web 前端中的增强现实（AR）开发技术](https://qianduan.group/posts/5a5f89cb0cf6b624d2239c65)，博客地址：[http://geekplux.com/2018/01/18/augmented-reality-development-tech-in-web-frontend.html](http://geekplux.com/2018/01/18/augmented-reality-development-tech-in-web-frontend.html)。注明作者和地址即可转载。
 
-增强现实（以下简称 AR）浪潮正滚滚而来，Web 浏览器作为人们最唾手可得的人机交互终端，正在大力发展 AR 技术。很多 Web 前端工程师也在寻求职业转型，于是我把我近半年的相关调研结果在此汇结成文。本文力求把目前前端方向的 AR 技术都罗列一遍，细节不赘述（*保证文章篇幅不过长*），只做概括和科普（*因此文章中的链接很多*），零零散散写了一个多月（拖延症），欢迎已经在从事该领域或研究的道友前来纠正补充。
+增强现实（以下简称 AR）浪潮正滚滚而来，Web 浏览器作为人们最唾手可得的人机交互终端，正在大力发展 AR 技术。很多 Web 前端工程师也在寻求职业转型，于是我把我近半年的相关调研结果在此汇结成文。本文力求把目前前端方向的 AR 技术都罗列一遍，细节不赘述（_保证文章篇幅不过长_），只做概括和科普（_因此文章中的链接很多_），零零散散写了一个多月（拖延症），欢迎已经在从事该领域或研究的道友前来纠正补充。
 
-![Web AR 初音未来](http://7b1evr.com1.z0.glb.clouddn.com/screenshot-nexus9.png)
+![Web AR 初音未来](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/screenshot-nexus9.png)
 
 AR 可以简单的理解为一种实时将虚拟图像叠加在现实场景中的技术，且能交互[1]。我个人觉得 AR 比 VR 要有前景，主要因为：
 
@@ -37,7 +40,7 @@ AR 的主要实现方式有 2 种\[2\]\[3\]：光学透视式 (Optical see-throu
 
 根据上一节的阐述，我们可以得出结论：要实现 AR 需要**识别、追踪和渲染**三步，在浏览器中也不外如是。另外，还可以结合传感器来提供更多的交互或让 AR 渲染得更准确、通过网络连接云端来加速计算或交换更多数据等。如下图所示，这是我自己整理出的一个 Web AR 流程图。Web AR 或者说移动 AR 在某些方面如便携性、传感器丰富、自带网络等还是有很大优势的，在此我就不多说了。
 
-![Web AR 流程图](http://7b1evr.com1.z0.glb.clouddn.com/%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
+![Web AR 流程图](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/flow-chart.png)
 
 ### WebVR 规范
 
@@ -46,7 +49,6 @@ AR 的主要实现方式有 2 种\[2\]\[3\]：光学透视式 (Optical see-throu
 > WebVR 是一个开放标准，使您可以在浏览器中体验 VR。我们的目标是让每个人都可以更轻松地体验 VR，无论您拥有什么设备。 -  [webvr.info](https://webvr.info/)
 
 为什么本文的题目是 Web AR，这里却提到 WebVR 呢？因为 **WebVR 规范中的部分 API 对 Web AR 也同样适用**。比如 [VRDevicePose](https://w3c.github.io/webvr/spec/latest/#pose) 可以获取摄像头位置。这是目前唯一接近 Web AR 的标准，有了标准我们就可以只针对规范的接口做开发，从而适应绝大多数的设备。扩展阅读：[WebVR 于增强现实](https://medium.com/arjs/webvr-for-augmented-reality-f1e69a505902)，[针对智能手机 AR 的 WebVR API 扩展](https://github.com/google-ar/three.ar.js/blob/master/webvr_ar_extension.md)。
-
 
 ### WebARonARKit, WebARonARCore
 
@@ -91,14 +93,13 @@ ARKit 和 ARCore 分别是苹果和谷歌两大巨头出品的移动 AR SDK，�
 
 这一节主要讲了识别和追踪，其实除了单纯的对图像、视频流处理，我们还能通过移动端设备的各种传感器数据获取到更多的距离、深度、光照等信息，从而使识别追踪更准确。
 
-
 ### A-Frame, Three.js, Babylon.js, Pixi.js, WebGL 渲染与交互
 
 讲完识别和追踪，终于该聊聊渲染了。[A-Frame](https://aframe.io/) 是 Mozilla 团队在 2015 年开源的一款做 WebVR 的框架，但日前 A-Frame 团队发布的 [aframe-xr](https://github.com/mozilla/aframe-xr) 其中包括了一些 Web AR 组件。一开始我们也说过 VR 和 AR 中有部分实现是重合的，所以用 A-Frame 的各种组件可以让你用很少的代码[构建出 AR 所需要的 3D 立体世界](http://elevr.com/using-a-frame-for-webvr-and-ar/)。提到 3D，不得不提 [WebGL](https://www.khronos.org/webgl/)。WebGL 是 OpenGL ES 在浏览器端的实现，你可以理解其为 OpenGL 的子集。用 WebGL 你可以操作前端的每一个像素点，懂一点图形学的同学一定知道它的强大，而且它能调用 GPU，所以前端涉及到 GPU 的地方也缺不了它。WebGL 虽然强大，但写起来异常复杂，学习成本也很高，而前端最著名的 3D 库 [Three.js](https://threejs.org/) 将繁琐的 WebGL API 进行了封装和优化，让你可以用可读性更好的代码在前端书写 WebGL。[Pixi.js](http://www.pixijs.com/) 和 Three.js 做了类似的事情，但它只支持 2D 渲染，不过它还是很好用的，如果你只是想用 WebGL 来做复杂的渲染但没涉及到 3D 场景，不妨试试它。[Babylon.js](https://www.babylonjs.com/) 就更牛了，它是一款游戏引擎，也是封装了 WebGL 在前端做高性能的渲染，但它和 Three.js 的关注点不一样，如果你对渲染的精细程度非常有要求，比如光线、阴影等，那么你可以考虑下 babylon.js，毕竟这是款由微软前员工开发的游戏引擎啊……
 
 这些基于 WebGL 的渲染方法，有一个共性的难题是如何交互，比如 hover, click 效果如何实现。其实在 Web AR 中交互非常局限：如果是桌面设备即电脑，和浏览网页的交互差不多，有 hover, click, drag 拖拽等；如果用的是移动设备，即手机、平板，则可能有 zoom 的交互（这里多嘴一句，其实移动 AR 中，应该尽量避免手指去 zoom 的交互，而应该引导用户用移近或移远设备来进行放大缩小）。这些实现起来要依赖于 [光线投射算法 Ray casting](https://en.wikipedia.org/wiki/Ray_casting) 方法。Three.js 直接提供了 [Raycaster](https://threejs.org/docs/#api/core/Raycaster) 类供实现 ray casting 算法。其实原理很简单，就是摄像头（这里的摄像头不是指手机的摄像头，而是你渲染时的 Camera，可以参考 Three.js 中的 [Camera](https://threejs.org/docs/#api/cameras/Camera)）视作视点，与你在屏幕上触碰的点坐标连城一条射线，看这条射线与你视图中哪些物体相交。
 
-![Ray casting 算法](http://7b1evr.com1.z0.glb.clouddn.com/7943693-31d57896a4fdf5dd.jpg)
+![Ray casting 算法](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/ray-casting.jpg)
 
 这一节主要讲了渲染与交互，事实上在实现 AR 的时候，识别追踪和渲染交互是同时进行的，如何给用户更好、更流畅的体验是现在 Web AR 的又一大难题。
 
@@ -118,10 +119,9 @@ ARKit 和 ARCore 分别是苹果和谷歌两大巨头出品的移动 AR SDK，�
 
 参考文献 [2] 中曾总结了当时所有的 AR 开发技术，如下表:
 
-![AR 开发技术](http://7b1evr.com1.z0.glb.clouddn.com/Screen%20Shot%202018-01-18%20at%2001.17.58.png)
+![AR 开发技术](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/ar-dev-tools.png)
 
 这张表将 AR 开发工具分成了四类，分别罗列出来。其实目前大多的 AR 开发都是用 Unity 去做的，很多第三方 SDK 也都是先集成到 Unity 上，再由 Unity 输出到对应设备所需的格式。表中的 [Vuforia](https://www.vuforia.com/) 据我观察是目前用的最多的第三方 SDK。**[ARToolKit](https://www.artoolkit.org/) 则在 Web 前端和移动端用的很多**，它的开源版是基于标记的 (Marker-based)，也提供机器学习的训练方法，让你可以将任意图片训练成 Marker。另外由于这张表是 2015 年的，当时苹果公司的 [ARKit](https://developer.apple.com/arkit/) 和谷歌的 [ARCore](https://developers.google.com/ar/) 这 2 个 SDK 还没有横空出世，可以将其归到表中的第三行。
-
 
 ### 参考文献
 

@@ -10,7 +10,7 @@ menu:
   Archives: /archives
   Wiki: https://wiki.geekplux.com
   Presentation: /presentation
-  Project : https://project.geekplux.com
+  Project: https://project.geekplux.com
   About: https://about.geekplux.com
   Donate: https://donate.geekplux.com
   关于: /about
@@ -21,16 +21,14 @@ rss: /atom.xml
 # Content
 fancybox: true
 
-
 # Miscellaneous
 google_analytics: UA-46481966-2
 favicon: /favicon.ico
 twitter: GeekPlux
-google_plus:
-fb_admins:
-fb_app_id:
+google_plus: # google plus
+fb_admins: # fb admin
+fb_app_id: # fb app
 baidu_tongji: true
-
 
 # Profile
 nickname: GeekPlux
@@ -42,7 +40,7 @@ links:
   Wiki: https://wiki.geekplux.com
   GitHub: https://github.com/geekplux
   Instagram: https://www.instagram.com/geekplux
-  Twitter : https://twitter.com/geekplux
+  Twitter: https://twitter.com/geekplux
   About: https://about.geekplux.com
   关于: /about
 
@@ -55,11 +53,11 @@ post_footer_content: I'm **[GeekPlux](/about)**, a web developer who contributes
 
 # Gitment
 gitment:
-  owner:
-  repo:
+  owner: # owner
+  repo: # repo
   client:
-    id:
-    secret:
+    id: # id
+    secret: # secret
 
 # Utterances
 # NOTICE) make sure the app is installed on the repo before using this commit system
@@ -71,8 +69,8 @@ utterances:
 # If you want to use valine,you should get the appId and appKey form https://leancloud.cn ,more setting please see https://valine.js.org
 valine:
   enable: false # !!if you want use valine comment system,please set enable: true
-  appId:  #your leancloud appId
-  appKey:  #your leancloud appKey
+  appId: # your leancloud appId
+  appKey: # your leancloud appKey
   guest_info: nick,mail,link #valine comment header info
   placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
   avatar: mm # gravatar style https://valine.js.org/avatar
@@ -86,6 +84,6 @@ donate:
   github: https://github.com/geekplux
   paypal: https://www.paypal.me/geekplux
   bitcoin: 1AVngxh56oLvAzXsEFnzccUohZdHswjC7j
-  BTCQR: http://7b1evr.com1.z0.glb.clouddn.com/donate/bitcoin.png
-  AliPayQR: http://7b1evr.com1.z0.glb.clouddn.com/donate/alipayQR.jpg
-  WeChatQR: http://7b1evr.com1.z0.glb.clouddn.com/donate/wechatQR.jpg
+  BTCQR: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/donate/bitcoin.png
+  AliPayQR: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/donate/alipayQR.jpg
+  WeChatQR: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/donate/wechatQR.jpg

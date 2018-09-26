@@ -1,9 +1,12 @@
 title: 如何在不规则多边形内均匀撒点的算法
 date: 2018-03-16 23:55:25
 categories:
+
 - Visualization
 - Algorithm
+
 tags:
+
 - Algorithm
 - 算法
 - Visualization
@@ -16,6 +19,7 @@ tags:
 - Data Visualization
 - Note
 - 笔记
+
 ---
 
 > 原文地址：[https://geekplux.com/2018/03/16/how-to-picking-uniform-points-in-irregular-polygon.html](https://geekplux.com/2018/03/16/how-to-picking-uniform-points-in-irregular-polygon.html)
@@ -41,7 +45,7 @@ tags:
 参考：https://beta.observablehq.com/@scarysize/finding-random-points-in-a-polygon
 切割库：https://github.com/mapbox/earcut
 
-![earcut 切割效果](http://7b1evr.com1.z0.glb.clouddn.com/picking-points/d21d62d4-7411-4ec9-8b33-99357ee16c12.png)
+![earcut 切割效果](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/picking-points/d21d62d4-7411-4ec9-8b33-99357ee16c12.png)
 
 三角形是凸多边形，如何在三角形内均匀撒点可参考：http://mathworld.wolfram.com/TrianglePointPicking.html
 
@@ -49,11 +53,10 @@ tags:
 
 1. 随机选取任意一三角形
 2. 在三角形内撒点
-3. 重复12，直到点撒完
+3. 重复 12，直到点撒完
 
-**这里有个问题***：每个三角形被选取的概率相同，但三角形面积不同。这就可能出现小面积三角形中的点和大面积三角形中的点个数差不多，从而造成总体上看起来点集中在小面积三角形中的情况。
+**这里有个问题\***：每个三角形被选取的概率相同，但三角形面积不同。这就可能出现小面积三角形中的点和大面积三角形中的点个数差不多，从而造成总体上看起来点集中在小面积三角形中的情况。
 所以要**保证三角形被选取的概率跟它的面积成正比**。
-
 
 ### 方法三 用力导向迭代
 
@@ -61,7 +64,7 @@ tags:
 
 参考：https://bl.ocks.org/mbostock/1b64ec067fcfc51e7471d944f51f1611
 
-![力导向迭代效果](http://7b1evr.com1.z0.glb.clouddn.com/picking-points/792ca119-0d62-4f24-94bc-db219491392e.png)
+![力导向迭代效果](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/picking-points/792ca119-0d62-4f24-94bc-db219491392e.png)
 
 ### 方法四 用四叉树生成点
 
@@ -69,9 +72,9 @@ tags:
 
 参考：https://www.phase2technology.com/blog/using-d3-quadtrees-power-interactive-map-bonnier-corporation
 
-![四叉树效果](http://7b1evr.com1.z0.glb.clouddn.com/picking-points/22c8a130-0a60-4004-966c-1264903bee6c.png)
-![四叉树效果](http://7b1evr.com1.z0.glb.clouddn.com/picking-points/fe26c3c9-3e1e-4702-9773-22b86e193986.png)
+![四叉树效果](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/picking-points/22c8a130-0a60-4004-966c-1264903bee6c.png)
+![四叉树效果](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/picking-points/fe26c3c9-3e1e-4702-9773-22b86e193986.png)
 
+---
 
---------------
 本作品采用[知识共享 署名-非商业性使用-禁止演绎 4.0 国际 许可协议](http://creativecommons.org/licenses/by-nc-nd/4.0/)进行许可。

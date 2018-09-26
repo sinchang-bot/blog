@@ -1,26 +1,27 @@
 title: 如何搭建一个私人网盘
 date: 2016-10-25 22:13:11
 categories:
+
 - Tool
+
 tags:
+
 - ownCloud
 - docker
 - 工具
 - Tool
 - 网盘
 - 云
----
 
+---
 
 > 文章主要讲了为什么要搭建私有网盘，以及如何用 docker + ownCloud 搭建。原文地址：[https://geekplux.com/2016/10/25/how-to-setup-a-personal-cloud.html](https://geekplux.com/2016/10/25/how-to-setup-a-personal-cloud.html)
 
 前两天，360 云盘宣布将停止个人服务。一石激起千层浪，关于如何选择网盘，如何应对网盘关闭的讨论一下子又变得此起彼伏。没办法，目前的现状是，网盘很难有大的盈利空间，还面对严苛的内容审查和隐私保护，虽然于用户来说提供了便利，但于公司来说实在是一件出力不讨好的事情。
 
-
 ## 之前的网盘方案
 
 国外的网盘我一直是三家一起用，分别是 Dropbox 存储代码和一些重要或私密文件；Google Drive 存储一些大文件和私密文件；OneDrive 存储一些电子书（同步太慢了）。国内的网盘我之前只用两家，一是坚果云，放一些个人常用的小文件，包括一些文档和软件配置文件；另一个是百毒云，放一些各处转存来的大文件、自己的照片和学习资料，一方面因其空间大，另一方面因其同步流畅。然而，百毒云前段时间把我的网盘**全面封掉**了，丢失了很多大学时的照片（其它文件要不不重要，要不有备份），申诉无果，实属无奈。
-
 
 ## 搭建一个只属于自己的网盘
 
@@ -28,10 +29,9 @@ tags:
 
 - 可以设置是否加密，保证数据安全。
 - ownCloud 可以用于同步日程、联系人、浏览器书签等，最重要的是**密码管理**，这对于目前有无数密码需要记的我们非常实用。ownCloud 还有个应用商店，大家可以自行发现有用的应用。
-- ownCloud 提供网页和各种设备、系统的客户端（Windows、Mac、Linux、iOS、Android皆有）进行访问你的网盘。
+- ownCloud 提供网页和各种设备、系统的客户端（Windows、Mac、Linux、iOS、Android 皆有）进行访问你的网盘。
 - ownCloud 能将外部存储（如 FTP、WebDAV、Amazon S3，甚至 Dropbox 和 Google Drive）的文件挂载到 ownCloud 上，实现无缝存储和分享。
 - 文件支持版本管理，还有回收站，所以不必担心误删。
-
 
 ## 搭建方法
 
@@ -45,7 +45,6 @@ tags:
 
 > **下面是对上面三步的详细讲解，嫌太长的话可以不看。只需要把下面用到的两个 docker images （owncloud、postgres）下载好，安装 docker-compose 并拷贝 docker-compose.yml 文件到你想要存储 ownCloud 数据的文件夹，然后运行 `docker-compose up` 就好，一气呵成。**
 
-
 ### 使用 docker
 
 安装好 docker 之后，直接下载 `owncloud` image 运行
@@ -56,7 +55,7 @@ docker run --name owncloud -p 80:80 owncloud
 
 其实就可以看到 ownCloud 已经运行起来了，访问你的 VPS 地址，就可以看到 ownCloud 的界面。
 
-![](http://7b1evr.com1.z0.glb.clouddn.com/docker-owncloud-1.png)
+![](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/docker-owncloud-1.png)
 
 但这时的 ownCloud 还没有数据库，所以我们还需要用 docker --link 来添加一个数据库存储 ownCloud 的数据，这里用到了 `postgres` 这个 image（数据库你可以自己定，不一定要用 postgreSQL）。
 
@@ -77,14 +76,13 @@ docker run --rm --link owncloud-postgres:owncloud-db --name owncloud -p 80:80 ow
 pip install docker-compose
 ```
 
-然后配置 docker-compose.yml，下面配置中的 `volumes` 就是在配置数据持久化的目录结构。由于我把 docker-compose.yml 存在了VPS 的`~/owncloud`文件夹下，所以底下 `volumes` 配置中，冒号前面的宿主目录是那样写的，而冒号后面的是 container 中的目录，具体：
+然后配置 docker-compose.yml，下面配置中的 `volumes` 就是在配置数据持久化的目录结构。由于我把 docker-compose.yml 存在了 VPS 的`~/owncloud`文件夹下，所以底下 `volumes` 配置中，冒号前面的宿主目录是那样写的，而冒号后面的是 container 中的目录，具体：
 
 - /etc/postgresql 存储数据库的配置
 - /var/lib/postgresql 存储数据库中的数据
 - /var/www/html/app 存储 ownCloud APP 的数据
 - /var/www/html/data 存储 ownCloud 的数据
 - /var/www/html/config 存储 ownCloud 的配置
-
 
 ```yml
 # Composition of the containers
@@ -134,9 +132,7 @@ docker-compose up
 
 就可以把 ownCloud 运行起来了，上一步中的很多操作，这里一步就搞定了。不过**切记！`owncloud-data`和`postgres-data`两个 container 和 volume 千万不要删。删之前请备份**。
 
-
 ### ownCloud 配置
-
 
 访问你 VPS 的 8080 端口（刚才配置文件里写了）打开 ownCloud 主页，需要做两件事
 
@@ -145,13 +141,11 @@ docker-compose up
 
 点击完成，一切 OK，进入文件页面尽情探索吧！
 
-
 ## 参考&延伸阅读
 
 - [Setting up an ownCloud Server in a Docker container using Docker Compose](http://blog.securem.eu/serverside/2015/08/25/setting-up-owncloud-server-in-a-docker-container/)
-- [使用和搭建ownCloud私有云要点](https://github.com/vector090/vector090.github.io/wiki/%E4%BD%BF%E7%94%A8%E5%92%8C%E6%90%AD%E5%BB%BAownCloud%E7%A7%81%E6%9C%89%E4%BA%91%E8%A6%81%E7%82%B9)
+- [使用和搭建 ownCloud 私有云要点](https://github.com/vector090/vector090.github.io/wiki/%E4%BD%BF%E7%94%A8%E5%92%8C%E6%90%AD%E5%BB%BAownCloud%E7%A7%81%E6%9C%89%E4%BA%91%E8%A6%81%E7%82%B9)
 
+---
 
-
---------------
 本作品采用[知识共享 署名-非商业性使用-禁止演绎 4.0 国际 许可协议](http://creativecommons.org/licenses/by-nc-nd/4.0/)进行许可。

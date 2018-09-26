@@ -1,8 +1,11 @@
 title: 数据可视化之 Sankey 桑基图的实现
 date: 2018-08-28 00:17:17
 categories:
+
 - Visualization
+
 tags:
+
 - Visualization
 - 可视化
 - 数据可视化
@@ -14,14 +17,14 @@ tags:
 - Guide
 - 总结
 - Summary
----
 
+---
 
 > 原文地址：[https://geekplux.com/2018/08/28/how-to-implement-sankey-diagram.html](https://geekplux.com/2018/08/28/how-to-implement-sankey-diagram.html)
 
 ## 什么是桑基图
 
-![](https://www.azavea.com/wp-content/uploads/2017/08/MA_Operations_2016_Sankey.png)
+![](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/MA_Operations_2016_Sankey.png)
 
 Google 搜索桑基图，可以搜到一大堆定义。简而言之，桑基图是一种数据流图，展示了数据是如何从左到右流向最后的节点，每条边代表一条数据流，宽度代表数据流的大小。桑基图常用于流量分析，可以很清楚的看出数据是如何渐渐分流的。本文着重讲解如何实现，理论方面的东西各位可以自行了解。
 
@@ -29,7 +32,7 @@ Google 搜索桑基图，可以搜到一大堆定义。简而言之，桑基图�
 
 关键点有两个：
 
-#### 1. 坐标计算
+#### 1.  坐标计算
 
 桑基图要展现的数据流，算是图（拓扑类、网络型或关系型）数据的一种。实现一个数据可视化图，最重要的就是拆解元素。而实现一个图数据可视化，则最重要的是分清“节点”和“边”。
 
@@ -39,7 +42,7 @@ Google 搜索桑基图，可以搜到一大堆定义。简而言之，桑基图�
 
 #### 2. 减少边交叉
 
-当数据量到一定程度的时候，桑基图中的边会出现重叠现象，造成一定的视觉混乱。如何减少可以阅读本文第二节。
+当数据量到一定程度的时候， 桑基图中的边会出现重叠现象，造成一定的视觉混乱。如何减少可以阅读本文第二节。
 
 ## 一、坐标计算的实现
 
@@ -155,7 +158,7 @@ Google 搜索桑基图，可以搜到一大堆定义。简而言之，桑基图�
 - 从左只有，根据节点宽度和节点水平间距，计算出节点横坐标
 - 设定一个比例尺函数，计算出节点的高度
 - 设置一个节点垂直间距
-- 通过[高斯－赛德尔迭代（Gauss–Seidel method）](https://en.wikipedia.org/wiki/Gauss%E2%80%93Seidel_method)计算出纵坐标（大致的思路是，先根据前两步的数值算出一个初始节点坐标，如果总体布局超出视图的下界，则节点高度和节点垂直间距都按比例缩小（如0.95），并同时上移 n 个像素，如果总体布局超出视图上界，则节点高度和垂直间距都按比例缩小，并同时下移 n 个像素，直到总体的桑基图布局适应一开始限定的视图宽高）
+- 通过[高斯－赛德尔迭代（Gauss–Seidel method）](https://en.wikipedia.org/wiki/Gauss%E2%80%93Seidel_method)计算出纵坐标（大致的思路是，先根据前两步的数值算出一个初始节点坐标，如果总体布局超出视图的下界，则节点高度和节点垂直间距都按比例缩小（如 0.95），并同时上移 n 个像素，如果总体布局超出视图上界，则节点高度和垂直间距都按比例缩小，并同时下移 n 个像素，直到总体的桑基图布局适应一开始限定的视图宽高）
 
 这个思路是 [d3-sankey](https://github.com/d3/d3-sankey) 的实现思路。如果你有限定视图宽高的需求，那么可以直接使用 d3-sankey。
 
@@ -171,7 +174,7 @@ Google 搜索桑基图，可以搜到一大堆定义。简而言之，桑基图�
 
 以上操作可以通过遍历每个 node 的 sourceLinks 和 targetLinks 来计算。得到边的四个端点以后，就可以算出三次贝塞尔曲线的控制点了：
 
-![](http://7b1evr.com1.z0.glb.clouddn.com/sankey_bezier.png)
+![](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/sankey_bezier.png)
 
 ## 二、如何减少交叉
 
@@ -188,12 +191,11 @@ Google 搜索桑基图，可以搜到一大堆定义。简而言之，桑基图�
 
 我参与的 **UBA (User Behavior Analytics 内部项目)** 项目中，正好用到了桑基图。除了上述的图形绘制之外，主要复杂的是交互。
 
-![](http://ovad4r7yz.bkt.gdipper.com/2tayi-9gtn4.gif)
-![](http://7b1evr.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202018-08-22%20%E4%B8%8B%E5%8D%883.04.33.png)
-![](http://7b1evr.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202018-08-22%20%E4%B8%8B%E5%8D%883.05.06.png)
+![](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/sankey-demo.gif)
+![](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/sankey-demo1.png)
+![](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/sankey-demo2.png)
 
-
-如图所示，除了基本的 hover 交互之外，项目中主要还有
+如图所示，除了基本的  hover 交互之外，项目中主要还有
 
 - minimap 拖拽和刷选
 - 主视图的拖拽和缩放
@@ -202,7 +204,8 @@ Google 搜索桑基图，可以搜到一大堆定义。简而言之，桑基图�
 
 整个桑基图实现下来发现绘制只是一些计算，交互才是更难抽象和处理的部分。
 
-综上，桑基图是一个展现数据流非常好用的视图，感兴趣的同学可以自己实现一个试试。除了我文章中这些基本的桑基图布局，你还可以试试其他变种，另外交互方面也可以突破刚才我提到的那些，比如我之前实现过点击节点进行折叠/展开的交互。总体来说可视化还是一个比较有意思的方向。
+综上，桑基图是一个  展现数据流非常好用的视图，感兴趣的同学可以自己实现一个试试。除了我文章中这些基本的桑基图布局，你还可以试试其他变种，另外交互方面也可以突破刚才我提到的那些，比如我之前实现过点击节点进行折叠/展开的交互。总体来说可视化还是一个比较有意思的方向。
 
---------------
+---
+
 本作品采用[知识共享 署名-非商业性使用-禁止演绎 4.0 国际 许可协议](http://creativecommons.org/licenses/by-nc-nd/4.0/)进行许可。

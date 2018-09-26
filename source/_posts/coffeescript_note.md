@@ -9,7 +9,8 @@ tags:
 - Note
 - CoffeeScript
 photo:
-- http://7b1evr.com1.z0.glb.clouddn.com/illustration%5Ccoffeescript_note2012-09-18-coffeescript.jpg
+- https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/coffeescript.jpg
+
 ---
 
 
@@ -257,18 +258,18 @@ tom.move()
 
 CoffeeScript 中添加了一些关键字，如 `unless when then until do` 等。不仅如此，CoffeeScript 引入了很多**别名**来代替一些关键字：
 
-| 别名        | 对应关键字 |
-| --------   | -----  |
-| is	| === |
-| isnt	| !== |
-| not	| ! |
-| and | &&  |
-| or  | &#124;&#124; |
-| true, yes, on | true |
-| false, no, off | false |
-| @, this | this |
-| of | in |
-| in | no JS equivalent |
+| 别名           | 对应关键字       |
+| -------------- | ---------------- |
+| is             | ===              |
+| isnt           | !==              |
+| not            | !                |
+| and            | &&               |
+| or             | &#124;&#124;     |
+| true, yes, on  | true             |
+| false, no, off | false            |
+| @, this        | this             |
+| of             | in               |
+| in             | no JS equivalent |
 
 运用别名和新关键字，使代码读起来就和普通的英文一样。而且 CoffeeScript 还自动为你添加关键字，如函数最后的 `return`，`switch` 后自动添加 `break`（这种符合我们惰性的改进都是伟大的！ヽ( ^∀^)ﾉ）。
 
@@ -327,4 +328,4 @@ coffee -c hello_world.coffee -o ./js -w
 本作品采用[知识共享 署名-非商业性使用-禁止演绎 4.0 国际 许可协议](http://creativecommons.org/licenses/by-nc-nd/4.0/)进行许可。
 
 
-  [1]: http://7b1evr.com1.z0.glb.clouddn.com/illustration%5Ccoffeescript_noteBF073048-AB31-4C6C-84FD-BEDE15DB9E62.png
+  [1]: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/coffeescript-note.png

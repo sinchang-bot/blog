@@ -1,22 +1,24 @@
 title: 轻松玩转 Ukulele
 date: 2015-01-05 23:54:00
 categories:
+
 - Ukulele
+
 tags:
+
 - 新技能
 - Skill
 - 乐器
 - Instrument
 - Ukulele
+
 ---
 
 > 原文地址：[https://geekplux.com/2015/01/05/play-ukulele.html](https://geekplux.com/2015/01/05/play-ukulele.html)
 
-
 每个人都幻想过自己拥有一身的艺术细菌，可以像各种钢琴王子一样在琴键上挥洒自如。但是由于某些不可抗力，从小到大一直没学什么乐器，或者是学了也没坚持下来。最尴尬的是选了一种鸡肋乐器，学有所成却不接地气，比如二胡（我真不是黑，因为我也学过那么两年），总不能在同学聚会激战正酣的时候拿出来即兴演奏吧……还是老老实实戴个圆框墨镜到地铁口来一曲二泉映月……
 
 人生苦短，为了圆我们的音（zhuang）乐（bi）梦，Ukulele 可以说是应运而生。本文将从 what、why、how 三方面介绍如何快速玩转 Ukulele，争取把我在学习过程中遇到的坑都写出来供大家参考。
-
 
 ## What-什么是 Ukulele
 
@@ -37,33 +39,31 @@ Ukulele 翻译为夏威夷吉他、四弦琴，音译为乌克丽丽、悠可力
 ## Why-为什么要玩 Ukulele
 
 - **无入门门坎，学习成本极低**
-只要10分钟，就可以弹出一首完整的曲子。如果你会吉他，更是拿起来就能弹。比吉他少了两根弦，学习成本直线下降，而其演奏效果却还和吉他差不多。不需要学习乐理，也不用系统学习，想唱啥歌，找个谱子开练即可。很多小正太小萝莉都能学得会，你当然不在话下。俗话说欲速则不达，Ukulele 却是真心可以速成的。
+  只要 10 分钟，就可以弹出一首完整的曲子。如果你会吉他，更是拿起来就能弹。比吉他少了两根弦，学习成本直线下降，而其演奏效果却还和吉他差不多。不需要学习乐理，也不用系统学习，想唱啥歌，找个谱子开练即可。很多小正太小萝莉都能学得会，你当然不在话下。俗话说欲速则不达，Ukulele 却是真心可以速成的。
 
 - **对手指友好**
-绝大多数 Ukulele 的弦是尼龙弦，按起来不疼，对手指特别友好。不像吉他那么难按，弹十分钟手指就疼的受不了。当然，等你练个一星期，就会发现指头上多了一层茧，怎么按都不会疼。
+  绝大多数 Ukulele 的弦是尼龙弦，按起来不疼，对手指特别友好。不像吉他那么难按，弹十分钟手指就疼的受不了。当然，等你练个一星期，就会发现指头上多了一层茧，怎么按都不会疼。
 
 - **小巧便携，各种场合都能来一手**
-小巧也是针对吉他来说的，一个胳膊就能夹住，背个小包也根本不费事。同学聚餐来一首调动气氛；草坪边上来一曲深情款款；公司年会来一首技惊四座；调试代码的间隙也可以来一首陶冶情操；马路边，地铁口，放个碗……
+  小巧也是针对吉他来说的，一个胳膊就能夹住，背个小包也根本不费事。同学聚餐来一首调动气氛；草坪边上来一曲深情款款；公司年会来一首技惊四座；调试代码的间隙也可以来一首陶冶情操；马路边，地铁口，放个碗……
 
 - **小清新，高逼格**
-基本上文艺青年看见 Ukulele 就走不动道了。妹子们弹是这样的：
-![妹纸弹 Uku（图片来自网络）][4]
-也可能是这样的：
-![Taylor Swift 弹唱会弹 Uku（图片来自网络）][5]
-男青年的样子是这样的：
-![大叔弹 Uku（图片来自网络）][6]
-哈哈，是不是如沐春风！可装逼可接地气，更是勾搭文（wu）艺（zhi）女青年的神器。
+  基本上文艺青年看见 Ukulele 就走不动道了。妹子们弹是这样的：
+  ![妹纸弹 Uku（图片来自网络）][4]
+  也可能是这样的：
+  ![Taylor Swift 弹唱会弹 Uku（图片来自网络）][5]
+  男青年的样子是这样的：
+  ![大叔弹 Uku（图片来自网络）][6]
+  哈哈，是不是如沐春风！可装逼可接地气，更是勾搭文（wu）艺（zhi）女青年的神器。
 
+* **有趣！好玩！**
+  喜欢一件事物，必然是因为它有趣啊！我在认识 Ukulele 之后才知道它多有趣，不止是弹情歌，比如下面这位大牛（现在他已经长大了！）。别问我他弹的什么，你听了前三秒就知道！
 
-- **有趣！好玩！**
-喜欢一件事物，必然是因为它有趣啊！我在认识 Ukulele 之后才知道它多有趣，不止是弹情歌，比如下面这位大牛（现在他已经长大了！）。别问我他弹的什么，你听了前三秒就知道！
-
-- [Ukulele 指弹超级玛丽](https://www.youtube.com/watch?v=U7GtxpuxTM4)
+* [Ukulele 指弹超级玛丽](https://www.youtube.com/watch?v=U7GtxpuxTM4)
 
 ## How-怎么快速玩转 Ukulele
 
 我当初是在上司的勾引下，入了这个坑的。把玩了他的琴两天，实在是爱不释手，就迫不及待地也入了一把，从此人生又多了一些欢乐，哈哈。以下从我的经历来说说怎么快速上手：
-
 
 ### 1.你要有把琴
 
@@ -71,12 +71,11 @@ Ukulele 翻译为夏威夷吉他、四弦琴，音译为乌克丽丽、悠可力
 
 S 型最小，琴身长 21 寸，音色最为清亮。可以给小盆友买用来玩耍，个子小的萌妹子也可以用。不过由于它比较小，所以适合弹唱，而不适合指弹（弹唱就是边弹边唱，指弹就是只弹不唱）。
 
-C 型适中，琴身长 23寸，指弹和弹唱都可以，女生非常适合这款，男生你得考虑下身高，个子高而用这把显得不是很协调。
+C 型适中，琴身长 23 寸，指弹和弹唱都可以，女生非常适合这款，男生你得考虑下身高，个子高而用这把显得不是很协调。
 
-T 型最长，琴身长26寸，音色稍低，大部分男生选这款。
+T 型最长，琴身长 26 寸，音色稍低，大部分男生选这款。
 
 我觉得新手可以只考虑型号就好了，剩下的共鸣、音准、琴弦、琴身材质等可以等进阶的时候再买。至于价钱，某宝上价格参差不齐，不过我建议**买个在你承受范围内偏贵那么一小点的**，这样你一方面会好好珍惜它，多练习，另一方面音色好弹出来的效果就好，容易有成就感，有成就感就会坚持下来。
-
 
 ### 2.你得学会调音
 
@@ -86,8 +85,7 @@ T 型最长，琴身长26寸，音色稍低，大部分男生选这款。
 
 - [Ukulele 调音](https://v.youku.com/v_show/id_XNDQ1NTgxNjg4.html?spm=a1z3jc.11711052.0.0&isextonly=1)
 
-是不是非常简单∩_∩
-
+是不是非常简单 ∩_∩
 
 ### 3.姿势
 
@@ -106,7 +104,7 @@ Ukulele 小巧可爱，怎么抱着都能弹，你可以坐着弹，躺着弹，
 
 ![按弦姿势（图片来自网络）][9]
 
-**但我在练习过程中还遇到了一个大坑：**那就是用拇指拨4弦或3弦时，总会碰到另一根。困扰了我很久，直到看到网上的这张图片：
+**但我在练习过程中还遇到了一个大坑：**那就是用拇指拨 4 弦或 3 弦时，总会碰到另一根。困扰了我很久，直到看到网上的这张图片：
 
 ![错误的右手姿势（图片来自网络）][10]
 
@@ -116,21 +114,19 @@ Ukulele 小巧可爱，怎么抱着都能弹，你可以坐着弹，躺着弹，
 
 所以**一开始最好力求姿势准确**，可以避免后来的很多坑。为什么姿势很重要可以看看知乎上[如何快速地自学 Ukulele？][12]（这个问题也是我当初提的）。
 
-
 ### 4.无敌四和弦
 
 和弦是啥？一般人玩一个乐器，第一句肯定问：这个哆在哪？ 没错，和弦就可以看作是哆唻咪等音符的组合，左手按住和弦，右手拨琴弦就会发出悦耳的声音了。我们的目的是快速上手，快速演奏出想唱的歌，所以这些细节没必要一开始搞懂，等学到瓶颈再来深入。
 
-**C  Am  F  G7** 这四个和弦被称为无敌四和弦。之所以无敌，是因为掌握了它们就可以演奏很多歌曲，不信你去搜关键字「Ukulele 无敌四和弦」，就可以看到很多曲谱。其指法如下：
+**C Am F G7** 这四个和弦被称为无敌四和弦。之所以无敌，是因为掌握了它们就可以演奏很多歌曲，不信你去搜关键字「Ukulele 无敌四和弦」，就可以看到很多曲谱。其指法如下：
 
 ![无敌四和弦（图片来自网络）][13]
 
-另外 **G** 和弦也是经常用，它和 **G7** 听起来差不多，所以前期如果按 **G** 吃力，就先用 **G7** 代替。我当初按 **G** 无名指怎么也够不着T_T，练了好久才习惯自如……总之，先用左手把这四个和弦练熟。
+另外 **G** 和弦也是经常用，它和 **G7** 听起来差不多，所以前期如果按 **G** 吃力，就先用 **G7** 代替。我当初按 **G** 无名指怎么也够不着 T_T，练了好久才习惯自如……总之，先用左手把这四个和弦练熟。
 
 接下来可以看一下主要的和弦图（不要怕，如果是弹唱则一首歌用到的很少）：
 
 ![主要和弦图（图片来自网络）][14]
-
 
 ### 5.节奏型与扫弦
 
@@ -146,8 +142,7 @@ Ukulele 小巧可爱，怎么抱着都能弹，你可以坐着弹，躺着弹，
 
 接着看第六课把《You Are My Sunshine》学会（两首都是一样的最简单下下下下四拍和弦），基本上就可以宣告你的 Ukulele 旅程要开始了！
 
-非常推荐 [这个系列视频][16]，介绍了17个常用节奏型，你到后期肯定会用到。
-
+非常推荐 [这个系列视频][16]，介绍了 17 个常用节奏型，你到后期肯定会用到。
 
 ### 6.练
 
@@ -168,7 +163,7 @@ Ukulele 小巧可爱，怎么抱着都能弹，你可以坐着弹，躺着弹，
 - 不得不提的 [马叔叔][20]
 - 刚才提到的 [优客伙计][21]
 - [广州弹吧小吉他教室][22]
-- [子熏乐器张SIR][23] 张 sir 很帅
+- [子熏乐器张 SIR][23] 张 sir 很帅
 - [maixueguonian][24]
 
 最后你可以膜拜一下公认的大神 [Jake Shimabukuro][25]，听过他的[弹奏][26]才知道 Ukulele 也能玩到这种境界。
@@ -185,35 +180,34 @@ Ukulele 小巧可爱，怎么抱着都能弹，你可以坐着弹，躺着弹，
 
 虽然网上已经有很多入门教程了，但仍希望这篇文章能给你些许的帮助，谢谢:)
 
+---
 
---------------
 本作品采用[知识共享 署名-非商业性使用-禁止演绎 4.0 国际 许可协议](http://creativecommons.org/licenses/by-nc-nd/4.0/)进行许可。
 
-
-  [1]: http://7b1evr.com1.z0.glb.clouddn.com/illustration/play-ukulele/1.jpg
-  [2]: http://7b1evr.com1.z0.glb.clouddn.com/illustration/play-ukulele/2.jpeg
-  [3]: http://baike.baidu.com/subview/3963326/10243259.htm
-  [4]: http://7b1evr.com1.z0.glb.clouddn.com/illustration/play-ukulele/3.jpg
-  [5]: http://7b1evr.com1.z0.glb.clouddn.com/illustration/play-ukulele/4.jpg
-  [6]: http://7b1evr.com1.z0.glb.clouddn.com/illustration/play-ukulele/5.jpg
-  [7]: http://7b1evr.com1.z0.glb.clouddn.com/illustration/play-ukulele/9.png
-  [8]: http://7b1evr.com1.z0.glb.clouddn.com/illustration/play-ukulele/10.png
-  [9]: http://7b1evr.com1.z0.glb.clouddn.com/illustration/play-ukulele/13.jpg
-  [10]: http://7b1evr.com1.z0.glb.clouddn.com/illustration/play-ukulele/11.jpg
-  [11]: http://7b1evr.com1.z0.glb.clouddn.com/illustration/play-ukulele/12.jpg
-  [12]: http://www.zhihu.com/question/23935947/answer/26247357
-  [13]: http://7b1evr.com1.z0.glb.clouddn.com/illustration/play-ukulele/7.jpg
-  [14]: http://7b1evr.com1.z0.glb.clouddn.com/illustration/play-ukulele/8.jpg
-  [15]: http://7b1evr.com1.z0.glb.clouddn.com/illustration/play-ukulele/14.png
-  [16]: http://v.youku.com/v_show/id_XNzU4MzA5NDYw.html
-  [17]: http://www.zhihu.com/question/23935947
-  [18]: http://www.ukulelecn.com/forum.php
-  [19]: http://www.ukulelefan.com/
-  [20]: http://i.youku.com/shushuMa
-  [21]: http://i.youku.com/ukulele
-  [22]: http://i.youku.com/u/UNjI1NDI5NTEy
-  [23]: http://i.youku.com/zixunyq
-  [24]: http://i.youku.com/ukulelemm
-  [25]: http://baike.baidu.com/view/6195265.htm
-  [26]: http://www.zhihu.com/question/20457612
-  [27]: http://7b1evr.com1.z0.glb.clouddn.com/illustration/play-ukulele/6.jpg
+[1]: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/play-ukulele/1.jpg
+[2]: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/play-ukulele/2.jpeg
+[3]: http://baike.baidu.com/subview/3963326/10243259.htm
+[4]: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/play-ukulele/3.jpg
+[5]: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/play-ukulele/4.jpg
+[6]: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/play-ukulele/5.jpg
+[7]: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/play-ukulele/9.png
+[8]: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/play-ukulele/10.png
+[9]: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/play-ukulele/13.jpg
+[10]: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/play-ukulele/11.jpg
+[11]: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/play-ukulele/12.jpg
+[12]: http://www.zhihu.com/question/23935947/answer/26247357
+[13]: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/play-ukulele/7.jpg
+[14]: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/play-ukulele/8.jpg
+[15]: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/play-ukulele/14.png
+[16]: http://v.youku.com/v_show/id_XNzU4MzA5NDYw.html
+[17]: http://www.zhihu.com/question/23935947
+[18]: http://www.ukulelecn.com/forum.php
+[19]: http://www.ukulelefan.com/
+[20]: http://i.youku.com/shushuMa
+[21]: http://i.youku.com/ukulele
+[22]: http://i.youku.com/u/UNjI1NDI5NTEy
+[23]: http://i.youku.com/zixunyq
+[24]: http://i.youku.com/ukulelemm
+[25]: http://baike.baidu.com/view/6195265.htm
+[26]: http://www.zhihu.com/question/20457612
+[27]: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/play-ukulele/6.jpg

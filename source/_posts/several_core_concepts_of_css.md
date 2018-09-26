@@ -1,15 +1,19 @@
 title: CSS 最核心的几个概念
 date: 2014-04-25 20:28:33
 categories:
+
 - Web
 - CSS
+
 tags:
+
 - Web
 - 笔记
 - Note
 - 总结
 - Summary
 - CSS
+
 ---
 
 
@@ -122,13 +126,13 @@ width = width(200px) + margin(20px * 2) = 240px;
 
 position 这个属性决定了元素将如何定位。它的值大概有以下五种：
 
-| position 值 | 如何定位 |
-| :--------- | :----- |
-| static | position的**默认值**。元素将定位到它的正常位置（上文提到过），其实也就相当于没有定位。元素在页面上**占据**位置。**不能**使用 top right bottom left 移动元素位置。 |
-| relative | 相对定位，相对于元素的正常位置来进行定位。元素在页面**占据**位置。**可以**使用 top right bottom left 移动元素位置。 |
-| absolute | 绝对定位，相对于*最近一级的* **定位不是 static 的**父元素来进行定位。元素在页面**不占据**位置。 **可以**使用 top right bottom left 移动元素位置。 |
-| fixed | 绝对定位，相对于**浏览器窗口**来进行定位。其余和 absolute 一样，相当于一种特殊的 absolute。 |
-| inherit | 从父元素继承 position 属性的值。 |
+| position 值 | 如何定位                                                                                                                                                          |
+| :---------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| static      | position的**默认值**。元素将定位到它的正常位置（上文提到过），其实也就相当于没有定位。元素在页面上**占据**位置。**不能**使用 top right bottom left 移动元素位置。 |
+| relative    | 相对定位，相对于元素的正常位置来进行定位。元素在页面**占据**位置。**可以**使用 top right bottom left 移动元素位置。                                               |
+| absolute    | 绝对定位，相对于*最近一级的* **定位不是 static 的**父元素来进行定位。元素在页面**不占据**位置。 **可以**使用 top right bottom left 移动元素位置。                 |
+| fixed       | 绝对定位，相对于**浏览器窗口**来进行定位。其余和 absolute 一样，相当于一种特殊的 absolute。                                                                       |
+| inherit     | 从父元素继承 position 属性的值。                                                                                                                                  |
 
 具体效果可以参考[w3school的实例][2]，或者自己写一下就明白了。
 
@@ -181,9 +185,9 @@ float 顾名思义，就是把元素浮动，它的取值一共有四个：left 
 
 
 
-  [1]: http://7b1evr.com1.z0.glb.clouddn.com/illustration%5Cthree_core_concepts_of_cssD65A4E60-A213-481C-86D6-A3929A0A8D28.png
+  [1]: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/css-box-model.png
   [2]: http://www.w3school.com.cn/cssref/pr_class_position.asp
-  [3]: http://7b1evr.com1.z0.glb.clouddn.com/illustration%5Cthree_core_concepts_of_css2012-08-14-59d1deed94-70c5-48bb-b2ff-8421d516a981.gif
+  [3]: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/css-document.gif
   [4]: http://www.cnblogs.com/iyangyuan/archive/2013/03/27/2983813.html
   [5]: http://www.zhangxinxu.com/wordpress/2010/01/css-float%E6%B5%AE%E5%8A%A8%E7%9A%84%E6%B7%B1%E5%85%A5%E7%A0%94%E7%A9%B6%E3%80%81%E8%AF%A6%E8%A7%A3%E5%8F%8A%E6%8B%93%E5%B1%95%E4%B8%80/
   [6]: http://www.zhangxinxu.com/wordpress/2010/01/css-float%E6%B5%AE%E5%8A%A8%E7%9A%84%E6%B7%B1%E5%85%A5%E7%A0%94%E7%A9%B6%E3%80%81%E8%AF%A6%E8%A7%A3%E5%8F%8A%E6%8B%93%E5%B1%95%E4%BA%8C/

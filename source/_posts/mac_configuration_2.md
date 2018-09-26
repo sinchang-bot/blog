@@ -1,22 +1,23 @@
 title: 菜鸟级 Mac 配置（二）
 date: 2014-03-03 13:50:50
 categories:
+
 - Tool
 - Mac
+
 tags:
+
 - 工具
 - Tool
 - Mac
 - 开发环境
 - Development Environment
+
 ---
-
-
 
 这一篇该讲讲我自己搭建开发环境遇到的事了。
 
 其实这第二篇我前两天就写了一大半，我明明记得随手 Command+S 了，不过，我貌似把保存好的文件给删掉了……真是自作孽不可活，只能重新写一遍 T_T。
-
 
 - **Xcode**
 
@@ -34,8 +35,6 @@ xcode-select --install
 
 我以前并木有听过 Homebrew（毕竟第一次用 Mac），但我看几篇 Mac 教程都提到它，于是去下载来尝试一下。果然群众的眼光是雪亮的，自从用了 brew 感觉上五楼都不喘气了……有了它，可以方便的管理工具包，常用的命令有：
 
-
-
 ```sh
 brew install xxx
 brew uninstall xxx
@@ -52,10 +51,10 @@ brew update xxx
 ```sh
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 ```
+
 copy 到命令行，回车，搞定！
 
 还有个东西叫 Homebrew-Cask，谁用谁知道。
-
 
 - **oh-my-zsh**
 
@@ -96,7 +95,6 @@ wget --no-check-certificate https://raw.github.com/robbyrussell/oh-my-zsh/master
 
 剩下的配置就参考我灰常喜爱的池老师的文章吧—— [终极 Shell](http://macshuo.com/?p=676)
 
-
 - **iTerm2**
 
 据说，这货和 zsh 配合起来，特别酷炫！于是我去官网下载，然后飞速安装，迫不及待的打开，发现也没什么两样嘛。但在我把下面的快捷键都试了一遍后，发现这些小功能确实酷炫：
@@ -114,7 +112,6 @@ wget --no-check-certificate https://raw.github.com/robbyrussell/oh-my-zsh/master
 
 ![][1]
 
-
 - **Apache**
 
 Mac 自带 Apache ，可以使用以下命令控制它：
@@ -124,6 +121,7 @@ sudo apachectl start
 sudo apachectl restart
 sudo apachectl stop
 ```
+
 所以，唯一修改的就是它的站点目录了。Mac 下 Apache 的默认站点目录是
 
 ```sh
@@ -138,12 +136,11 @@ ln -s 「你想更换的目录」 /Library/WebServer/Documents
 
 重启生效。
 
-
 - **PHP**
 
 Mac 也自带了 PHP，你只需配置 `php.ini` 文件就好了。具体配置可以网上搜索。
 
-*但这里我想说一件我遇到的蛋疼问题：之前我的 Mac 默认语音是中文，什么环境都配置好之后，我觉得还是换成英文版比较带劲（no zuo no die），就设置更换并重启了电脑。突然发现 Web 项目首页报错，数据库错误。我排查了好长时间，最后发现原来是因为更换了英文版之后，电脑的**默认时区**更换了，导致 PHP 出错，进而导致数据库也有了问题。所以在 `php.ini` 里把 date.timezone = Asia/Shanghai 吧。。。*
+_但这里我想说一件我遇到的蛋疼问题：之前我的 Mac 默认语音是中文，什么环境都配置好之后，我觉得还是换成英文版比较带劲（no zuo no die），就设置更换并重启了电脑。突然发现 Web 项目首页报错，数据库错误。我排查了好长时间，最后发现原来是因为更换了英文版之后，电脑的**默认时区**更换了，导致 PHP 出错，进而导致数据库也有了问题。所以在 `php.ini` 里把 date.timezone = Asia/Shanghai 吧。。。_
 
 - **MySQL**
 
@@ -174,8 +171,7 @@ mysql.server start
 
 按这四步来安装，我觉得应该是万无一失的。否则总会碰到一些比较蛋疼的问题，比如 root 用户的密码都设置不了（不知道是不是我一个人碰到），出现的错误提示现在忘了，不过根据 StackOverflow 上[这篇帖子](http://stackoverflow.com/questions/4359131/brew-install-mysql-on-mac-os)的方法可以重新安装。刚才的那四步也是这位程序员写的，清晰易懂。
 
-*后来还是由于我更换英文版，我发现数据库导入都成了乱码……（耳边又响起了 no zuo no die），原因是因为英文版又把默认编码改了……可以使用下面这句更改 MySQL 的默认编码：*
-
+_后来还是由于我更换英文版，我发现数据库导入都成了乱码……（耳边又响起了 no zuo no die），原因是因为英文版又把默认编码改了……可以使用下面这句更改 MySQL 的默认编码：_
 
 ```sh
 SET NAMES 'utf8';
@@ -186,14 +182,12 @@ SET character_set_results = utf8;
 SET character_set_connection = utf8;
 ```
 
-
 至此，基本上我的环境都搭好了，编辑器当然用 Sublime Text 3。后来我还安装了一下 Android Studio，还是那个问题，第一次 Gradle 太慢了，在天朝还是下载离线的吧……
 
 我对 Mac 还在探索中，如果你有什么好的 Mac 技巧，可以告诉我哦~
 
+---
 
---------------
 本作品采用[知识共享 署名-非商业性使用-禁止演绎 4.0 国际 许可协议](http://creativecommons.org/licenses/by-nc-nd/4.0/)进行许可。
 
-
-  [1]: http://7b1evr.com1.z0.glb.clouddn.com/illustration%5C%E8%8F%9C%E9%B8%9F%E7%BA%A7Mac%E9%85%8D%E7%BD%AE%5CScreen%20Shot%202014-02-26%20at%205.53.11%20PM.png
+[1]: https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/mac-config4.png

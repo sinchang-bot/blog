@@ -1,9 +1,12 @@
 title: 'Vega-Lite: A Grammar of Interactive Graphics'
 date: 2016-11-02 16:16:16
 categories:
+
 - Research
 - Visualization
+
 tags:
+
 - Research
 - Visualization
 - 数据
@@ -13,11 +16,10 @@ tags:
 - Graphics
 - Vega
 - Vega-Lite
+
 ---
 
-
 > 在 InfoVis 2016 上，[UW 交互数据实验室](http://idl.cs.washington.edu/) 提出了一种新的交互数据可视化语法——Vega-Lite，获得了今年的 best paper，本文将根据其论文从多个角度介绍 Vega-Lite。[论文地址](http://idl.cs.washington.edu/papers/vega-lite/)。原文地址：[https://geekplux.com/2016/11/02/vega-lite-a-grammar-of-interactive-graphics.html](https://geekplux.com/2016/11/02/vega-lite-a-grammar-of-interactive-graphics.html)
-
 
 ## 什么是 Vega-Lite
 
@@ -27,7 +29,7 @@ tags:
 
 如下图所示，只要右边寥寥数行代码，就能定义一个散点图：
 
-![](http://7b1evr.com1.z0.glb.clouddn.com/sctterplot1.png)
+![](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/vega-lite/sctterplot1.png)
 
 ## 为什么要提出 Vega-Lite
 
@@ -44,7 +46,7 @@ tags:
 
 为了实现以上的这些愿景，Vega-Lite 主要通过以下方式做出努力：
 
-- **Algebra**  用于将单个 view 合成多 view
+- **Algebra** 用于将单个 view 合成多 view
 - **Selection** 用于交互选择判定
 - **Transform** 对数据、交互操作转换
 - **Compiler** 编译成 vega 语言，可供二次开发
@@ -57,15 +59,13 @@ tags:
 
 ### Vega-Lite 的具体语法——图形方面
 
-
 #### View 视图
 
 首先，Vega-Lite 定义一个图形为一个 Unit，所以 Unit 是 Vega-Lite 里图形的最小单位。Unit 的定义是：
 
     unit := (data, transforms, mark-type, encodings)
 
-
-- data 用来说明数据的来源，支持JSON格式和CSV格式
+- data 用来说明数据的来源，支持 JSON 格式和 CSV 格式
 - transform 定义了如何对原始输入数据进行处理
 - mark 指定了可视化图形
 - encoding 定义数据到可视化图形的映射规则
@@ -88,18 +88,16 @@ Layer 很好理解，就是字面意思，将每个 View 重叠；
 
     layer([unit1, unit2, ...], resolve)
 
-![](http://7b1evr.com1.z0.glb.clouddn.com/layer.png)
-
+![](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/vega-lite/layer.png)
 
 ##### Concatenation
 
-Concatenation是将多个单视图水平放置或垂直放置；
+Concatenation 是将多个单视图水平放置或垂直放置；
 
     hconcat([view1, view2, ...], resolve)
     vconcat([view1, view2, ...], resolve)
 
-![](http://7b1evr.com1.z0.glb.clouddn.com/concatenation.png)
-
+![](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/vega-lite/concatenation.png)
 
 ##### Facet
 
@@ -107,8 +105,7 @@ Facet 是将多个单视图根据数据中的某个 field 进行排布；
 
     facet(channel, data, field, view, scale, axis, resolve)
 
-![](http://7b1evr.com1.z0.glb.clouddn.com/facet.png)
-
+![](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/vega-lite/facet.png)
 
 ##### Repeat
 
@@ -116,8 +113,7 @@ Repeat 也很好理解，重复放置视图。
 
     repeat(channel, values, scale, axis, view, resolve)
 
-![](http://7b1evr.com1.z0.glb.clouddn.com/repeat.png)
-
+![](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/vega-lite/repeat.png)
 
 ### Vega-Lite 的具体语法——交互方面
 
@@ -139,24 +135,24 @@ Vega-Lite 目前提供的交互操作一共有 5 种，分别是：project(field
 
 Project 用来重定义判定函数 predicate。
 
-![](http://7b1evr.com1.z0.glb.clouddn.com/project.png)
+![](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/vega-lite/project.png)
 
 ##### Toggle
 
-Toggle 表示按下shift键，可以在之前交互结果上，继续进行交互。
+Toggle 表示按下 shift 键，可以在之前交互结果上，继续进行交互。
 
-![](http://7b1evr.com1.z0.glb.clouddn.com/toggle.png)
+![](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/vega-lite/toggle.png)
 
 ##### Translate
 
 Translate 用于改变交互事件的判断
 
-![](http://7b1evr.com1.z0.glb.clouddn.com/translate.png)
+![](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/vega-lite/translate.png)
 
 ##### Zoom 和 Nearest
 
-- Zoom操作主要用户视图的缩放
-- Nearest操作，会将整个视图根据元素的位置分割成Voronoi图，然后将距当前交互的元素最近的元素选择出来
+- Zoom 操作主要用户视图的缩放
+- Nearest 操作，会将整个视图根据元素的位置分割成 Voronoi 图，然后将距当前交互的元素最近的元素选择出来
 
 #### 其他交互
 
@@ -164,7 +160,7 @@ Translate 用于改变交互事件的判断
 
 简单的条件判断逻辑。
 
-![](http://7b1evr.com1.z0.glb.clouddn.com/select.png)
+![](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/vega-lite/select.png)
 
 ##### 把选择的数据作为另一个 view 的输入
 
@@ -174,8 +170,7 @@ Translate 用于改变交互事件的判断
 
 结合上一点，就可以把一个视图作为另一个视图的拓展。例如下图的 Overview + Detail 模式。
 
-![](http://7b1evr.com1.z0.glb.clouddn.com/detail.png)
-
+![](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/vega-lite/detail.png)
 
 **以上三个交互情形都支持与或非逻辑**
 
@@ -188,7 +183,6 @@ Translate 用于改变交互事件的判断
 - union 求并集，是指只要在多视图中任意一个子视图选中的部分，就被算作选中。
 - intersect 求交集，是指只有在多视图中都选中的部分，才被算作选中。
 
-
 ### Vega-Lite 编译器
 
 Vega-Lite 虽然也是用 JSON 写，但它可以编译成更低级的 Vega。其中它的编译器面临两个难点：
@@ -196,7 +190,7 @@ Vega-Lite 虽然也是用 JSON 写，但它可以编译成更低级的 Vega。�
 #### 两个难点
 
 - 数据结构不对应
-- 由于vega-lite省略了很多细节设定，所以得编译器自己计算
+- 由于 vega-lite 省略了很多细节设定，所以得编译器自己计算
 
 #### 四个步骤
 
@@ -207,7 +201,6 @@ Vega-Lite 虽然也是用 JSON 写，但它可以编译成更低级的 Vega。�
 - 组合、优化数据结构，去除冗余
 - 汇编所有的元素
 
-
 ## Vega-Lite 局限性
 
 Vega-Lite 目前虽然已经发布，但依旧在紧锣密鼓的开发，主要是因其现在还没有达到其理想的效果，在以下两方面还有局限性：
@@ -215,18 +208,16 @@ Vega-Lite 目前虽然已经发布，但依旧在紧锣密鼓的开发，主要�
 - 生成的可视化结果依赖于当前 Vega-Lite 的实现（未来可能会通过解释器层面解决，而不是编译器）
 - 本身固有的模式（通过 predicate function 抽象来解决）
 
-
 ## 总结
 
 可视化在时下越来越重要，越来越多的行业需要对数据进行展示，而可视化的专家又少之又少，所以很需要一款像 Vega-Lite 一样，简单，智能的系统快速地实现可视化。这可能是可视化工具未来发展的方向 —— 快速实现，快速替换可视化方案，快速展示，接下来再进行二次开发，进而多次迭代。
 
 由此可见 Vega-Lite 前景很大，不过可能还需要再沉淀、开发一段时间，我们拭目以待吧。
 
-
-
 ## 参考文献
 
 - Satyanarayan, A., Moritz, D., Wongsuphasawat, K., & Heer, J. (2016). Vega-Lite: A Grammar of Interactive Graphics. IEEE Transactions on Visualization and Computer Graphics, 2626(c), 1–1. http://doi.org/10.1109/TVCG.2016.2599030
 
---------------
+---
+
 本作品采用[知识共享 署名-非商业性使用-禁止演绎 4.0 国际 许可协议](http://creativecommons.org/licenses/by-nc-nd/4.0/)进行许可。
