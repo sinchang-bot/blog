@@ -22,5 +22,5 @@
 我的公众号：**好奇害死猫**（haoqihaisimao_weixin）不定期（几乎不）更新。
 
 <p align="left">
-  <img width="250" src="https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/qrcode1.jpg"/ style="margin-left: 0">
+  <img width="250" src="https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/qrcode1.jpg" style="margin-left: 0">
 </p>
