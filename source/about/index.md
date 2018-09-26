@@ -1,12 +1,12 @@
 title: 关于我
 date: 2014-01-24 23:10:33
+
 ---
 
 一个简单的代码爱好者。
-常年混迹于网络，一直用GeekPlux这个昵称，90后。
+常年混迹于网络，一直用 GeekPlux 这个昵称，90 后。
 
-
-[博客](http://geekplux.com/) -- [Wiki](http://geekplux.com/wiki) --  [Github](https://github.com/geekplux) --  [Weibo](http://weibo.com/cloud285) -- [Twitter](https://twitter.com/GeekPlux) -- [Telegram](https://t.me/geekplux_lab) -- [LinkedIn](https://cn.linkedin.com/in/geekplux) -- <a href="mailto:geekplux@gmail.com">Mail</a>
+[博客](http://geekplux.com/) -- [Wiki](http://geekplux.com/wiki) -- [Github](https://github.com/geekplux) -- [Weibo](http://weibo.com/cloud285) -- [Twitter](https://twitter.com/GeekPlux) -- [Telegram](https://t.me/geekplux_lab) -- [LinkedIn](https://cn.linkedin.com/in/geekplux) -- <a href="mailto:geekplux@gmail.com">Mail</a>
 
 ## 一些啰嗦的人生阶段总结
 
@@ -63,6 +63,5 @@ date: 2014-01-24 23:10:33
 > 相信不屈不挠的努力
 > 相信战胜死亡的年轻
 > 相信未来，热爱生命
-
 
 有什么想问我的，可以来 [AMA](https://github.com/geekplux/ama) 尽情发问。
