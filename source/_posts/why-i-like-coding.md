@@ -10,7 +10,9 @@ tags:
 - 感想
 - 情感
 - 代码
-  photos:
+
+photos:
+
 - https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/wallpaper-2641851.png
 
 ---
