@@ -7,6 +7,7 @@ date:
 什么胡思乱想都往里写，每篇基本上都是一气呵成
 虽然没有博客里的文章正式，但也是我的一些所见所想。
 
+- 2018-10-30 [突闻金庸先生逝世有感](https://mp.weixin.qq.com/s?__biz=MjM5ODk1MjgwMQ==&mid=2649120582&idx=1&sn=36998921053189f23adf1973b8b6c5da&chksm=bed0154889a79c5ef9d617eb0018984be20f2eb55103bbde9a9526aa73ede45b203c10a46a44&token=2107800721&lang=zh_CN#rd)
 - 2017-02-23 [压力、焦虑和拖延症](https://mp.weixin.qq.com/s?__biz=MjM5ODk1MjgwMQ==&mid=2649120552&idx=1&sn=dc9d4210dbb6adda389e35a8db8f4650&chksm=bed0152689a79c3075c74b4240b1cbf8a40d0b91c8ec314287e4d0007776dfb46771b46639d8#rd)
 - 2016-03-14 [超过十个人的微信群根本没有价值](http://mp.weixin.qq.com/s?__biz=MjM5ODk1MjgwMQ==&mid=401636873&idx=1&sn=e4b416cc3c2fc74c9a36fdcf82804d5f#rd)
 - 2015-12-21 [假如我们的主观意识都是别人操控的](http://mp.weixin.qq.com/s?__biz=MjM5ODk1MjgwMQ==&mid=400800239&idx=1&sn=938f2a6307aef3b87d01b089496ecc47#rd)
