@@ -14,34 +14,10 @@ date: 2014-01-24 23:10:33
 - [毕业后的两年](https://geekplux.com/2016/02/15/two-years-after-graduated.html)
 - [研究生生涯总结](https://geekplux.com/2018/06/01/the-summary-of-graduate-career.html)
 
-## 用的还行的
+## 技能
 
 - HTML / CSS
 - JavaScript
-
-## 用过的
-
-- Vue / JQuery / React / Angular / Backbone
-- PostCSS / Sass / Less / Stylus / Jade / Bootstrap / Material Design
-- Webpack / Gulp / CoffeeScript
-- Redis / MySQL / MongoDB / PostgreSQL
-- Python
-- Ruby on Rails
-- Vim / Emacs / OSX
-- Git / SVN
-
-## 用过但忘了的
-
-- PHP (Codeigniter)
-- C/C++ -- 实现各类数据结构和算法
-- Java -- 开发 Android 应用
-- C# -- 大学课程设计
-
-## 在学
-
-- Functional Programming
-- Sketch
-- Scheme / Elisp
 
 ## 爱好
 
