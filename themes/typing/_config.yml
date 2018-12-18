@@ -10,7 +10,7 @@ menu:
   Archives: /archives
   Wiki: https://wiki.geekplux.com
   Publication: /publication
-  Presentation: /presentation
+  Talk: /talk
   Project: https://project.geekplux.com
   About: https://about.geekplux.com
   Donate: https://donate.geekplux.com
@@ -42,7 +42,7 @@ links:
   GitHub: https://github.com/geekplux
   Instagram: https://www.instagram.com/geekplux
   Twitter: https://twitter.com/geekplux
-  Presentation: /presentation
+  Talk: /talk
   扯淡集: /gab
   关于: /about
   RSS: /atom.xml
