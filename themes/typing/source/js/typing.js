@@ -10,7 +10,7 @@
         $(this).after('<span class="caption">' + alt + '</span>')
       }
 
-      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>')
+      $(this).wrap('<a href="' + this.src + '" data-fancybox=\"gallery\" data-caption="' + alt + '"></a>')
     })
 
     $(this).find('.fancybox').each(function () {
@@ -43,7 +43,7 @@
 		  var thisID	=	$(this).attr('id');
 		  if (thisID === 'BTC') {
 			  showQR(BTCQR);
-			  new Clipboard('#BTCBn');
+			  new ClipboardJS('#BTCBn');
 		  } else if (thisID === 'AliPay') {
 			  showQR(AliPayQR);
 		  } else if (thisID === 'WeChat') {
@@ -59,20 +59,6 @@
 			  });
 			  $('#DonateText,#donateBox,#github').removeClass('blur');
 		  },600);
-    });
-
-    $('#menu').click(function (event) {
-      var nav = $('#main-nav');
-      nav.toggle('fast');
-    });
-
-    $(window).resize(function () {
-      var viewportWidth = $(window).width();
-      if (viewportWidth > 468) {
-        $('#main-nav').show('fast');
-      } else {
-        $('#main-nav').hide('fast');
-      }
     });
   });
 })(jQuery)
