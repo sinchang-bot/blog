@@ -11,9 +11,8 @@ menu:
   Wiki: https://wiki.geekplux.com
   Publication: /publication
   Talk: /talk
-  Project: https://project.geekplux.com
-  About: https://about.geekplux.com
   Donate: https://donate.geekplux.com
+  About: https://about.geekplux.com
   关于: /about
   扯淡集: /gab
   RSS: /atom.xml
@@ -33,7 +32,7 @@ baidu_tongji: true
 
 # Profile
 nickname: GeekPlux
-description: I am a web developer, open-source contributor, student and lifelong **learner** interested in everything.<br/> Now I focus on Data Visualization.
+description: I am a web developer, open-source contributor and lifelong **learner** interested in everything.<br/> Now I focus on Data Visualization.
 
 icons: false
 links:
@@ -45,6 +44,7 @@ links:
   Talk: /talk
   扯淡集: /gab
   关于: /about
+  About: https://about.geekplux.com
   RSS: /atom.xml
 
 # nav position (top, left. top is default)
