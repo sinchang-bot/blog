@@ -22,7 +22,7 @@ rss: /atom.xml
 fancybox: true
 
 # Miscellaneous
-google_analytics: UA-46481966-2
+google_analytics:
 favicon: /favicon.ico
 twitter: GeekPlux
 google_plus: # google plus
