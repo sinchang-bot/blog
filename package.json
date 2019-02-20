@@ -40,5 +40,9 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "devDependencies": {
+    "gatsby-plugin-meta-redirect": "^1.1.1",
+    "gatsby-redirect-from": "^0.1.1"
   }
 }

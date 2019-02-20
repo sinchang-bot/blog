@@ -1,6 +1,11 @@
 ---
 title: Hello World
 date: "2015-05-01T22:12:03.284Z"
+redirect_from:
+  - /aaaa
+  - /bbbb/
+  - /a
+  # note: forward slashes are required
 ---
 
 This is my first post on my new fake blog! How exciting!
