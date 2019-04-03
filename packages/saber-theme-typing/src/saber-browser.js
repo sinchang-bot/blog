@@ -1,3 +1,5 @@
+import './styles/minima.scss';
+
 export default ({ router }) => {
   // Progress bar is not needed on server-side
   if (process.browser) {

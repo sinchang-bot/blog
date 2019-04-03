@@ -1,5 +1,33 @@
+siteConfig:
+  title: My Site
+  description: About this website..
+  author: My Name
+  email: my@email.com
+  url: https://example.com
 plugins:
   - resolve: saber-plugin-query-posts
-siteConfig:
-  title: My Blog
-theme: ./saber-theme-typing
+  - resolve: saber-plugin-generate-feed
+    options:
+      atomFeed: true
+theme: ./packages/saber-theme-typing/src
+themeConfig:
+  nav:
+    - text: Home
+      link: /
+    - text: About
+      link: /about.html
+  social:
+    dribbble: username
+    facebook: username
+    flickr: username
+    github: username
+    instagram: username
+    linkedin: username
+    pinterest: username
+    twitter: username
+    youtube: username
+    telegram: username
+    microdotblog: username
+    googleplus: username
+    rss: true
+  disqus: disqus-short-name

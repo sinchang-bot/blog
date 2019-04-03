@@ -8,6 +8,12 @@
   "dependencies": {
     "nprogress": "^0.2.0",
     "saber": "^0.3.6",
+    "saber-plugin-generate-feed": "^0.1.2",
     "saber-plugin-query-posts": "^0.0.7"
+  },
+  "devDependencies": {
+    "lerna": "^3.13.1",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0"
   }
 }
