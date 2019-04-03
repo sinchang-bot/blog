@@ -2,41 +2,10 @@
   "name": "geekplux-blog",
   "private": true,
   "description": "GeekPlux's blog",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "author": "GeekPlux <geekplux@gmail.com>",
+  "license": "MIT",
   "dependencies": {
-    "gatsby": "^2.0.107",
-    "gatsby-image": "^2.0.29",
-    "gatsby-plugin-feed": "^2.0.12",
-    "gatsby-plugin-google-analytics": "^2.0.12",
-    "gatsby-plugin-manifest": "^2.0.16",
-    "gatsby-plugin-offline": "^2.0.22",
-    "gatsby-plugin-react-helmet": "^3.0.5",
-    "gatsby-plugin-sharp": "^2.0.19",
-    "gatsby-remark-copy-linked-files": "^2.0.8",
-    "gatsby-remark-images": "^2.0.6",
-    "gatsby-remark-prismjs": "^3.2.3",
-    "gatsby-remark-responsive-iframe": "^2.0.8",
-    "gatsby-remark-smartypants": "^2.0.7",
-    "gatsby-source-filesystem": "^2.0.19",
-    "gatsby-transformer-remark": "^2.2.2",
-    "gatsby-transformer-sharp": "^2.1.13",
-    "prismjs": "^1.15.0",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-helmet": "^5.2.0"
-  },
-  "license": "n/a",
-  "main": "n/a",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
-  },
-  "devDependencies": {
-    "gatsby-plugin-meta-redirect": "^1.1.1",
-    "gatsby-redirect-from": "^0.1.1"
+    "saber": "^0.3.6"
   }
 }
