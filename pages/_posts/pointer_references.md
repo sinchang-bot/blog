@@ -3,19 +3,14 @@ layout: post
 title: C++指针与引用小结
 date: 2013-01-02 15:41:25
 categories:
-
 - Code
-
 tags:
-
 - Code
 - 编程
-- C/C++
 - 总结
 - Summary
 - 笔记
 - Note
-
 ---
 
 ## **概念**

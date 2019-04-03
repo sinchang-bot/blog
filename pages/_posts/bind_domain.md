@@ -3,12 +3,9 @@ layout: post
 title: 如何绑定独立域名
 date: 2013-08-10 18:18:11
 categories:
-
 - Tool
 - FarBox
-
 tags:
-
 - Discovery
 - FarBox
 - Tool
