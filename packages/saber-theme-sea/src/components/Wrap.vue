@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <Header :siteTitle="siteTitle"/>
     <main class="page-content" aria-label="Content">
       <div class="wrapper">

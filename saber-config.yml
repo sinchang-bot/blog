@@ -1,19 +1,26 @@
 siteConfig:
-  title: My Site
+  title: GeekPlux
   description: About this website..
-  author: My Name
-  email: my@email.com
-  url: https://example.com
+  author: geekplux
+  email: geekplux@gmail.com
+  url: https://geekplux.com
+  avatar: ./avatar.jpg
 plugins:
   - resolve: saber-plugin-query-posts
+    options:
+      perPage: 10
   - resolve: saber-plugin-generate-feed
     options:
       atomFeed: true
-theme: ./packages/saber-theme-typing/src
+theme: ./packages/saber-theme-sea/src
 themeConfig:
   nav:
     - text: Home
       link: /
+    - text: About
+      link: /about.html
+    - text: About
+      link: /about.html
     - text: About
       link: /about.html
   social:
