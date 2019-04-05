@@ -16,9 +16,7 @@
           <p>{{ $siteConfig.description }}</p>
         </div>
 
-        <div class="social-links">
-          <Social />
-        </div>
+        <Social/>
       </div>
     </div>
   </footer>

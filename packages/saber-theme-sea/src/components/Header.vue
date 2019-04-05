@@ -28,7 +28,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 30px;
+  padding: 0 10vw;
   background: #6292f1;
   color: #fff;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px;
@@ -47,7 +47,7 @@ svg {
 button {
   background: none;
   outline: none;
-  border: 1px solid #fff;
+  border: 0;
   padding: 2px;
 }
 
@@ -57,7 +57,7 @@ nav {
 
 .nav-links {
   max-height: 0;
-  transition: max-height 0.15s ease-out;
+  transition: max-height 0.35s;
   overflow: hidden;
   position: absolute;
   left: 0;
@@ -66,7 +66,6 @@ nav {
   flex-direction: column;
   width: 100%;
   display: flex;
-  padding: 0 30px;
 
   &.expanded {
     max-height: 50vh;
@@ -75,6 +74,8 @@ nav {
 .nav-link {
   height: 50px;
   line-height: 50px;
+  padding: 0 30px;
+  border-top: 1px solid rgba(255, 255, 255, .3);
 }
 
 @media screen and (min-width: 600px) {

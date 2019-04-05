@@ -8,7 +8,7 @@ siteConfig:
 plugins:
   - resolve: saber-plugin-query-posts
     options:
-      perPage: 10
+      perPage: 7
   - resolve: saber-plugin-generate-feed
     options:
       atomFeed: true
@@ -17,10 +17,6 @@ themeConfig:
   nav:
     - text: Home
       link: /
-    - text: About
-      link: /about.html
-    - text: About
-      link: /about.html
     - text: About
       link: /about.html
   social:

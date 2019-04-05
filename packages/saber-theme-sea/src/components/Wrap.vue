@@ -1,14 +1,19 @@
 <template>
   <div class="container">
     <Header :siteTitle="siteTitle"/>
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <slot></slot>
-      </div>
+    <main class="content" aria-label="Content">
+      <slot></slot>
     </main>
     <Footer :siteTitle="siteTitle"/>
   </div>
 </template>
+
+<style lang="scss" scoped>
+.content {
+  padding: 0 10vw;
+}
+</style>
+
 
 <script>
 import variables from 'saber/variables'
