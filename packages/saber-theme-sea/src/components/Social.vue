@@ -99,12 +99,6 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-
-  svg {
-    fill: rgba(20, 20, 31, 0.2);
-    width: 1em;
-    height: 1em;
-  }
 }
 </style>
 

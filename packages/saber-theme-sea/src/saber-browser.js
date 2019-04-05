@@ -1,4 +1,5 @@
 import 'modern-normalize';
+import './styles/global.scss';
 
 export default ({ router }) => {
   // Progress bar is not needed on server-side

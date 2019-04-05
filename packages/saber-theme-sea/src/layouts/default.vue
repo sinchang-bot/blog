@@ -1,19 +1,26 @@
 <template>
   <Wrap :page="page">
     <div class="home">
-      <h1 class="site-title" v-if="$siteConfig.title">{{ $siteConfig.title }}</h1>
+      <!-- <h1 class="site-title" v-if="$siteConfig.title">{{ $siteConfig.title }}</h1>
       <p class="site-description" v-if="$siteConfig.description">{{ $siteConfig.description }}</p>
-
+      -->
       <slot name="default"></slot>
 
       <h2
         class="post-list-heading"
         v-if="page.posts && page.posts.length > 0"
-      >{{ page.attributes.listTitle || 'Articles' }}</h2>
+      >{{ page.attributes.listTitle || '博客' }}</h2>
 
       <ul class="post-list" v-if="page.posts && page.posts.length > 0">
-        <li v-for="post in page.posts" :key="post.attributes.permalink">
-          <span class="post-meta">{{ formatDate(post.attributes.createdAt) }}</span>
+        <li class="post" v-for="post in page.posts" :key="post.attributes.permalink">
+          <span class="post-meta">
+            <span class="date">{{ formatDate(post.attributes.createdAt) }}</span>
+            <span
+              class="categories"
+              v-for="category in post.attributes.categories"
+              :key="category.toString()"
+            >, {{category}}</span>
+          </span>
           <h3>
             <saber-link
               class="post-link"
@@ -38,63 +45,43 @@
           v-if="page.pagination.hasNext"
         >Next →</router-link>
       </div>
-
-      <p class="feed-subscribe" v-if="feedLink">
-        <svg class="svg-icon orange">
-          <use :xlink:href="getSvg('rss')"></use>
-        </svg>
-        <a :href="feedLink">Subscribe</a>
-      </p>
     </div>
   </Wrap>
 </template>
 
 <style lang="scss" scoped>
 .post-list-heading {
-  font-size: 0.6866rem;
-  line-height: 1.6rem;
-  font-family: IBM Plex Mono, SFMono-Regular, Menlo, Monaco, Consolas,
-    Liberation Mono, Courier New, monospace;
-  color: rgba(22, 20, 31, 0.4);
-  width: 100%;
-  font-weight: 400;
-  text-transform: uppercase;
+  color: #888;
+  font-weight: lighter;
+  margin-bottom: 50px;
 }
 .post-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+.post {
+  margin-bottom: 2em;
+}
 .post-meta {
-  color: rgba(98, 146, 241, 0.8);
-  opacity: 0.5;
-  font-weight: 400;
   display: block;
-  font-family: IBM Plex Mono, SFMono-Regular, Menlo, Monaco, Consolas,
-    Liberation Mono, Courier New, monospace;
-  text-transform: uppercase;
-  font-size: 0.6866rem;
-  line-height: 1.6rem;
+  color: #bbb;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: lighter;
 }
 .post-link {
-  font-size: 1rem;
-  line-height: 1.2;
-  color: #333;
-  background: transparent;
-  box-shadow: none;
-  font-family: Spectral, Georgia, serif;
-  font-weight: 400;
-  padding-left: 0;
-  text-shadow: none;
   position: relative;
   text-decoration: none;
+  color: #1f1f1f;
+  font-size: 20px;
 
   &:hover {
     // background: rgba(98, 146, 241, 0.3);
-    color: #6292f1;
+    color: #1f1f1f;
     &::before {
-      width: 280px;
-      left: -300px;
+      width: 20px;
+      left: -40px;
     }
   }
 
@@ -106,7 +93,7 @@
     width: 4px;
     height: 4px;
     border-radius: 2px;
-    background: #6292f1;
+    background: #1f1f1f;
     transition: all 200ms cubic-bezier(0.4, 0, 1, 1);
   }
 }

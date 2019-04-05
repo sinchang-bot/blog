@@ -10,7 +10,12 @@
 
 <style lang="scss" scoped>
 .content {
-  padding: 0 10vw;
+  padding: 50px;
+  width: 80vw;
+  max-width: 750px;
+  margin: 50px auto 0 auto;
+  background: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(236, 236, 236, 0.86);
 }
 </style>
 
