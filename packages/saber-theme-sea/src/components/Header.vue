@@ -29,7 +29,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import "../styles/variables.scss";
+@import '../styles/variables.scss';
 
 header {
   background: #fff;
@@ -93,6 +93,11 @@ nav {
 
 .feed-subscribe {
   margin-left: 10px;
+
+  svg {
+    position: relative;
+    top: 4px;
+  }
 }
 
 @media screen and (min-width: 600px) {
