@@ -38,20 +38,22 @@
           class="prev-link"
           :to="page.pagination.prevLink"
           v-if="page.pagination.hasPrev"
-        >← Previous</router-link>
+        >{{ $siteConfig.pagination && $siteConfig.pagination.nextPage || '更多文章'}}</router-link>
         <router-link
           class="next-link"
           :to="page.pagination.nextLink"
           v-if="page.pagination.hasNext"
-        >Next →</router-link>
+        >{{ $siteConfig.pagination && $siteConfig.pagination.prevPage || '返回'}}</router-link>
       </div>
     </div>
   </Wrap>
 </template>
 
 <style lang="scss" scoped>
+@import '../styles/variables.scss';
+
 .post-list-heading {
-  color: #888;
+  color: $gray;
   font-weight: lighter;
   margin-bottom: 50px;
 }
@@ -65,7 +67,7 @@
 }
 .post-meta {
   display: block;
-  color: #bbb;
+  color: $gray-light;
   font-size: 12px;
   font-style: italic;
   font-weight: lighter;
@@ -73,28 +75,47 @@
 .post-link {
   position: relative;
   text-decoration: none;
-  color: #1f1f1f;
+  color: $headline-color;
   font-size: 20px;
+}
 
-  &:hover {
-    // background: rgba(98, 146, 241, 0.3);
-    color: #1f1f1f;
-    &::before {
-      width: 20px;
-      left: -40px;
-    }
+.pagination {
+  color: $gray;
+  overflow: auto;
+  font-size: 14px;
+  border-top: 1px solid $gray-lighter;
+  padding-top: 2.5em;
+
+  .next-link {
+    float: left;
   }
+  .prev-link {
+    float: right;
+  }
+}
 
-  &::before {
-    content: ' ';
-    position: absolute;
-    top: 10px;
-    left: -20px;
-    width: 4px;
-    height: 4px;
-    border-radius: 2px;
-    background: #1f1f1f;
-    transition: all 200ms cubic-bezier(0.4, 0, 1, 1);
+@media screen and (min-width: 600px) {
+  .post-link {
+    &:hover {
+      // background: rgba(98, 146, 241, 0.3);
+      color: $headline-color;
+      &::before {
+        width: 10px;
+        left: -30px;
+      }
+    }
+
+    &::before {
+      content: ' ';
+      position: absolute;
+      top: 10px;
+      left: -20px;
+      width: 4px;
+      height: 4px;
+      border-radius: 2px;
+      background: $headline-color;
+      transition: all 200ms cubic-bezier(0.4, 0, 1, 1);
+    }
   }
 }
 </style>

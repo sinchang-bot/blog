@@ -5,6 +5,9 @@ siteConfig:
   email: geekplux@gmail.com
   url: https://geekplux.com
   avatar: ./avatar.jpg
+  # pagination:
+  #   prevPage: prev
+  #   nextPage: next
 plugins:
   - resolve: saber-plugin-query-posts
     options:
@@ -34,3 +37,7 @@ themeConfig:
     googleplus: username
     rss: true
   disqus: disqus-short-name
+# build:
+#   loaderOptions:
+#     sass:
+#       data: '@import "../styles/variables.scss";'

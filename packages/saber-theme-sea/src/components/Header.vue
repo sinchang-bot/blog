@@ -29,6 +29,8 @@
 </template>
 
 <style lang="scss" scoped>
+@import "../styles/variables.scss";
+
 header {
   background: #fff;
   padding: 0 10vw;
@@ -47,11 +49,11 @@ header {
 
 a {
   text-decoration: none;
-  color: #1f1f1f;
+  color: $headline-color;
 }
 
 svg {
-  fill: #1f1f1f;
+  fill: $headline-color;
 }
 
 button {
@@ -71,11 +73,11 @@ nav {
   transition: max-height 0.35s;
   overflow: hidden;
   position: absolute;
-  left: 0;
+  left: -10vw;
   top: 50px;
   background: #fff;
   flex-direction: column;
-  width: 100%;
+  width: 100vw;
   display: flex;
 
   &.expanded {

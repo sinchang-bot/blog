@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "nprogress": "^0.2.0",
-    "saber": "^0.3.6",
+    "saber": "^0.3.7",
     "saber-plugin-generate-feed": "^0.1.2",
     "saber-plugin-query-posts": "^0.0.7"
   },
