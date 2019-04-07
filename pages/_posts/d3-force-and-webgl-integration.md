@@ -7,7 +7,7 @@ categories:
 tags:
 - Web
 - WebGL
-- d3
+- 'd3'
 - three.js
 - pixi.js
 - Google Summer of Code
