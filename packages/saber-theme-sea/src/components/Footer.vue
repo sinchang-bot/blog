@@ -1,6 +1,9 @@
 <template>
   <footer class="footer">
-    <p>{{ $siteConfig.footerAnnotation }}</p>
+    <p class="license" v-if="$siteConfig.license">
+      All content under
+      <a :href="$siteConfig.license.link">{{$siteConfig.license.text}}</a>
+    </p>
     <p class="copyright">
       Powered by
       <a class="power" href="https://saberjs.org">Saber</a>, theme
@@ -13,10 +16,19 @@
 @import '../styles/variables.scss';
 footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 30px 0;
+}
+
+.license {
+  font-size: 12px;
+  color: $gray;
+
+  a {
+    color: #000;
+  }
 }
 
 .copyright {

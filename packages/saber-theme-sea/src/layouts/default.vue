@@ -8,8 +8,8 @@
 
       <h2
         class="post-list-heading"
-        v-if="page.posts && page.posts.length > 0"
-      >{{ page.attributes.listTitle || '博客' }}</h2>
+        v-if="page.posts && page.posts.length > 0 && page.attributes.listTitle"
+      >{{ page.attributes.listTitle }}</h2>
 
       <ul class="post-list" v-if="page.posts && page.posts.length > 0">
         <li class="post" v-for="post in page.posts" :key="post.attributes.permalink">

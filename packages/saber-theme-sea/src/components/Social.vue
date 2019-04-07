@@ -99,6 +99,18 @@
   list-style: none;
   display: flex;
   flex-direction: row;
+
+  li {
+    margin-right: 5px;
+    &:last-child {
+      margin-right: 0;
+    }
+    &:hover {
+      .svg-icon {
+        fill: #000;
+      }
+    }
+  }
 }
 </style>
 

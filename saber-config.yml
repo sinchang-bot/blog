@@ -1,7 +1,12 @@
 siteConfig:
+  domain: geekplux.com
   title: GeekPlux
+  description: Web developer, open-source contributor and lifelong learner.
   avatar: ./avatar.jpg
   url: https://geekplux.com
+  license:
+    text: CC BY-NC-ND 4.0
+    link: https://creativecommons.org/licenses/by-nc-nd/4.0/
   # pagination:
   #   prevPage: 上一页
   #   nextPage: 下一页
@@ -21,20 +26,34 @@ themeConfig:
       link: /
     - text: About
       link: /about.html
-  # social:
-  #   dribbble: username
-  #   facebook: username
-  #   flickr: username
-  #   github: username
-  #   instagram: username
-  #   linkedin: username
-  #   pinterest: username
-  #   twitter: username
-  #   youtube: username
-  #   telegram: username
-  #   microdotblog: username
-  #   googleplus: username
-  #   rss: true
+    - text: Wiki
+      link: https://wiki.geekplux.com
+    - text: Publication
+      link: /publication
+    - text: Talk
+      link: /talk
+    - text: Donate
+      link: https://donate.geekplux.com
+    - text: About
+      link: https://about.geekplux.com
+    - text: 关于
+      link: /about
+    - text: 扯淡集
+      link: /gab
+  social:
+    # dribbble: username
+    # facebook: geekplux
+    # flickr: username
+    github: geekplux
+    instagram: geekplux
+    linkedin: geekplux
+    # pinterest: username
+    twitter: geekplux
+    # youtube: username
+    # telegram: username
+    # microdotblog: geekplux
+    # googleplus: username
+    rss: true
   disqus: geekplux
 # build:
 #   loaderOptions:

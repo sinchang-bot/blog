@@ -1,6 +1,6 @@
 <template>
   <Wrap :page="page">
-    <article class="post">
+    <article class="post typo">
       <header class="post-header">
         <h1 class="post-title">{{ page.attributes.title }}</h1>
       </header>
