@@ -85,7 +85,7 @@ themeConfig:
     telegram: username
     microdotblog: username
     googleplus: username
-    rss: true 
+    rss: true
 ```
 
 ### Comments
@@ -93,9 +93,6 @@ themeConfig:
 You can use Disqus:
 
 ```yml
-themeConfig:
-  disqus: disqus-short-name
-
 # Note that `siteConfig.url` is required for Disqus
 siteConfig:
   url: https://example.com
