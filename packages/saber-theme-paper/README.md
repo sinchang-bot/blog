@@ -1,19 +1,23 @@
-# saber-theme-minima
+# saber-theme-paper
 
-[![npm](https://badgen.net/npm/v/saber-theme-minima)](https://npm.im/saber-theme-minima) [![circleci](https://badgen.net/circleci/github/egoist/saber-theme-minima/master)](https://circleci.com/gh/egoist/saber-theme-minima)
+[![npm](https://badgen.net/npm/v/saber-theme-paper)](https://npm.im/saber-theme-paper) [![circleci](https://badgen.net/circleci/github/paper/saber-theme-paper/master)](https://circleci.com/gh/paper/saber-theme-paper)
 
-> A Saber Port of the Default Jekyll Theme: Minima
+> A simple theme like read on a paper.
+
+## Demo
+
+- [Demo site](https://geekplux.com)
 
 ## Install
 
 ```bash
-yarn add saber-theme-minima
+yarn add saber-theme-paper
 ```
 
 In your `saber-config.yml`:
 
 ```yml
-theme: minima
+theme: paper
 ```
 
 This theme is better working with following plugins:
@@ -45,10 +49,19 @@ Configure site title, description etc in your `saber-config.yml`:
 
 ```yml
 siteConfig:
-  title: My Site
-  description: About this website..
-  author: My Name
-  email: my@email.com
+  domain: yourdomain.com
+  title: yourWebsiteTitle
+  description: anything you want to put
+  avatar: /youravatar.jpg
+  url: https://yourdomain.com
+  license:
+    text: CC BY-NC-ND 4.0
+    link: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  pagination:
+    prevPage: back
+    nextPage: more articles
+    prevPost: prev post
+    nextPost: next post
 ```
 
 ## Theme Config
@@ -93,6 +106,8 @@ themeConfig:
 You can use Disqus:
 
 ```yml
+themeConfig:
+  disqus: disqus-short-name
 # Note that `siteConfig.url` is required for Disqus
 siteConfig:
   url: https://example.com

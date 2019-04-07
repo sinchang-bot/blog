@@ -1,4 +1,0 @@
-# build:
-#   loaderOptions:
-#     sass:
-#       data: '@import "../styles/variables.scss";'
