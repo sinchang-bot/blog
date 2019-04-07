@@ -33,7 +33,7 @@ tags:
 
 ![Web visualization tech](https://ooo.0o0.ooo/2017/07/09/59610ee72e616.png)
 
-SVG 的优点很多，编辑简单，交互便捷，灵活性极高，业内成熟的可视化工具（如 d3）都是用的 SVG。但是每个 SVG 都是一个 DOM 元素，随着它的数量上来之后，交互开始慢的难以忍受。这是因为每当修改一个 DOM 对象，只要这个对象在文档里，接着在浏览器里就会发生两个动作，一个叫 **Reflow（重排，就是重新排版）**，另一个叫 **Repaint（重绘，就是重新渲染页面）**。这两个动作不一定都会发生，但如果被修改的 DOM 当前可见的话，那么就会先重排，后重绘。绘制性能上 canvas 和 SVG（DOM 元素）应该差不多，但前者可以省掉重排过程，因此性能更高。然而，WebGL 的性能更胜一筹，因为 WebGL 使用 GPU 加速渲染，GPU 在大规模计算方面有绝对优势（图像处理、深度学习都在用，显卡已经卖疯了）。例子：用 WebGL 绘制 200000 个点的动画(http://rickyreusser.com/smoothly-animating-points-with-regl/)
+SVG 的优点很多，编辑简单，交互便捷，灵活性极高，业内成熟的可视化工具（如 d3）都是用的 SVG。但是每个 SVG 都是一个 DOM 元素，随着它的数量上来之后，交互开始慢的难以忍受。这是因为每当修改一个 DOM 对象，只要这个对象在文档里，接着在浏览器里就会发生两个动作，一个叫 **Reflow（重排，就是重新排版）**，另一个叫 **Repaint（重绘，就是重新渲染页面）**。这两个动作不一定都会发生，但如果被修改的 DOM 当前可见的话，那么就会先重排，后重绘。绘制性能上 canvas 和 SVG（DOM 元素）应该差不多，但前者可以省掉重排过程，因此性能更高。然而，WebGL 的性能更胜一筹，因为 WebGL 使用 GPU 加速渲染，GPU 在大规模计算方面有绝对优势（图像处理、深度学习都在用，显卡已经卖疯了）。例子：用 WebGL 绘制 200000 个点的动画(https://rreusser.github.io/smoothly-animating-points-with-regl/)
 
 WebGL 虽然威力无穷，但是写起来比较痛苦，画个三角形大致要 100 行代码。所以很多人对 WebGL 进行了封装。上面图中提到的两个 [Three.js](https://github.com/mrdoob/three.js/) 和 [PixiJS](https://github.com/pixijs/pixi.js) 是目前最流行的两款 WebGL 库，当然还有新兴的 [regl](https://github.com/regl-project/regl) 在今年的 [OpenVis](https://openvisconf.com/) 上大放异彩。本文尝试用前两者和 [d3-force](https://github.com/d3/d3-force/) 结合（[项目代码在此](https://github.com/geekplux/d3-force-webgl-integration-demo)），后面如果有时间的话，我会把使用 regl 和原生 WebGL 的例子也补充进去（我知道这是个 flag）。
 
