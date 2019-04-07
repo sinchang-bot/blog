@@ -1,9 +1,5 @@
 siteConfig:
   title: GeekPlux
-  description: About this website..
-  author: geekplux
-  email: geekplux@gmail.com
-  url: https://geekplux.com
   avatar: ./avatar.jpg
   # pagination:
   #   prevPage: prev
@@ -22,21 +18,21 @@ themeConfig:
       link: /
     - text: About
       link: /about.html
-  social:
-    dribbble: username
-    facebook: username
-    flickr: username
-    github: username
-    instagram: username
-    linkedin: username
-    pinterest: username
-    twitter: username
-    youtube: username
-    telegram: username
-    microdotblog: username
-    googleplus: username
-    rss: true
-  disqus: disqus-short-name
+  # social:
+  #   dribbble: username
+  #   facebook: username
+  #   flickr: username
+  #   github: username
+  #   instagram: username
+  #   linkedin: username
+  #   pinterest: username
+  #   twitter: username
+  #   youtube: username
+  #   telegram: username
+  #   microdotblog: username
+  #   googleplus: username
+  #   rss: true
+  disqus: geekplux
 # build:
 #   loaderOptions:
 #     sass:

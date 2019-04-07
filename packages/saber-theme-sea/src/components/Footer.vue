@@ -1,40 +1,35 @@
 <template>
-  <footer class="site-footer h-card">
-    <div class="wrapper">
-      <div class="footer-col-wrapper">
-        <div class="footer-col one-half">
-          <h2 class="footer-heading">{{ siteTitle }}</h2>
-          <ul class="contact-list">
-            <li class="p-name">{{ $siteConfig.author ? $siteConfig.author : siteTitle }}</li>
-            <li v-if="$siteConfig.email">
-              <a class="u-email" :href="`mailto:${$siteConfig.email}`">{{ $siteConfig.email }}</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="footer-col one-half">
-          <p>{{ $siteConfig.description }}</p>
-        </div>
-
-        <Social/>
-      </div>
-    </div>
+  <footer class="footer">
+    <p>{{ $siteConfig.footerAnnotation }}</p>
+    <p class="copyright">
+      Powered by
+      <a class="power" href="https://saberjs.org">Saber</a>, theme
+      <a class="theme" href="https://github.com/geekplux/saber-theme-typing">Typing</a>
+    </p>
   </footer>
 </template>
 
-<script>
-import Social from './Social.vue'
+<style lang="scss" scoped>
+@import '../styles/variables.scss';
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
 
-export default {
-  components: {
-    Social
-  },
+.copyright {
+  font-size: 12px;
+  color: $gray-light;
 
-  props: {
-    siteTitle: {
-      type: String,
-      required: true
-    }
+  a {
+    color: $gray;
   }
 }
+</style>
+
+
+<script>
+export default {}
 </script>
