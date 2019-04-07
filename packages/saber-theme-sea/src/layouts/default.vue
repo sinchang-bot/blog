@@ -79,20 +79,6 @@
   font-size: 20px;
 }
 
-.pagination {
-  color: $gray;
-  overflow: auto;
-  font-size: 14px;
-  border-top: 1px solid $gray-lighter;
-  padding-top: 2.5em;
-
-  .next-link {
-    float: left;
-  }
-  .prev-link {
-    float: right;
-  }
-}
 
 @media screen and (min-width: 600px) {
   .post-link {

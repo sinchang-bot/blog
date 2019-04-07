@@ -1,9 +1,12 @@
 siteConfig:
   title: GeekPlux
   avatar: ./avatar.jpg
+  url: https://geekplux.com
   # pagination:
-  #   prevPage: prev
-  #   nextPage: next
+  #   prevPage: 上一页
+  #   nextPage: 下一页
+  #   prevPost: 上一篇
+  #   nextPage: 下一篇
 plugins:
   - resolve: saber-plugin-query-posts
     options:

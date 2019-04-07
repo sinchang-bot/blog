@@ -7588,6 +7588,11 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+typo.css@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/typo.css/-/typo.css-2.1.2.tgz#1b5abf3c01b7a34ec648e53168958d1e9f574b74"
+  integrity sha1-G1q/PAG3o07GSOUxaJWNHp9XS3Q=
+
 uglify-js@^3.1.4:
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.5.3.tgz#d490bb5347f23025f0c1bc0dee901d98e4d6b063"

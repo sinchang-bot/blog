@@ -16,7 +16,7 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 30px 0;
+  padding: 30px 0;
 }
 
 .copyright {

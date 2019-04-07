@@ -1,4 +1,5 @@
 import 'modern-normalize';
+import 'typo.css';
 import './styles/global.scss';
 
 export default ({ router }) => {

@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 body,
 h1,
 h2,
@@ -36,4 +38,20 @@ a {
   width: 1em;
   height: 1em;
   fill: rgba(20, 20, 31, 0.2);
+}
+
+.pagination {
+  color: $gray;
+  overflow: auto;
+  font-size: 14px;
+  border-top: 1px solid $gray-lighter;
+  padding-top: 2.5em;
+
+  .next-link {
+    float: left;
+  }
+
+  .prev-link {
+    float: right;
+  }
 }
