@@ -3,11 +3,8 @@ layout: post
 title: Windows8.1 下 Cocos2d-x 环境搭建
 date: 2013-10-16 17:54:30
 categories:
-
 - Cocos2d-x
-
 tags:
-
 - Cocos2d-x
 - 开发环境
 - 游戏开发
@@ -15,7 +12,6 @@ tags:
 - 入门
 - Game Development
 - Development Environment
-
 ---
 
 Cocos2d-x 是一个开源的 2d 游戏引擎，基于 Cocos2d-iPhone 设计，MIT 许可证下发布。其最明显的特点是**跨平台**，只需要编写一次代码，就可以无缝地部署在包括 iOS、Android、Windows、OSX 在内的许多主流游戏平台上。在移动终端多样化的今天，跨平台是大势所趋。接下来开始正题：如何搭建 Cocos2d-x 开发环境。

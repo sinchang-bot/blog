@@ -3,18 +3,14 @@ layout: post
 title: "写文章的小技巧"
 date: 2015-10-28 18:24:11
 categories:
-
 - Thought
-
 tags:
-
 - Skill
 - Blog
 - Thought
 - 思考
 - 写文章
 - Writing
-
 ---
 
 > 原文地址：[https://geekplux.com/2015/10/28/writing-skills.html](https://geekplux.com/2015/10/28/writing-skills.html)

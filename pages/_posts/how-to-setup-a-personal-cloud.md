@@ -3,18 +3,14 @@ layout: post
 title: 如何搭建一个私人网盘
 date: 2016-10-25 22:13:11
 categories:
-
 - Tool
-
 tags:
-
 - ownCloud
 - docker
 - 工具
 - Tool
 - 网盘
 - 云
-
 ---
 
 > 文章主要讲了为什么要搭建私有网盘，以及如何用 docker + ownCloud 搭建。原文地址：[https://geekplux.com/2016/10/25/how-to-setup-a-personal-cloud.html](https://geekplux.com/2016/10/25/how-to-setup-a-personal-cloud.html)

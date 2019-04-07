@@ -3,17 +3,13 @@ layout: post
 title: Collapsing margins——合并的外边距
 date: 2014-03-14 21:10:19
 categories:
-
 - Web
 - CSS
-
 tags:
-
 - Web
 - CSS
 - 笔记
 - Note
-
 ---
 
 > 原文地址：[https://geekplux.com/2014/03/14/collapsing_margins.html](https://geekplux.com/2014/03/14/collapsing_margins.html)

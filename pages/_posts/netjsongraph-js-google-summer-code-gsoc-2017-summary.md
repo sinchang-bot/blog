@@ -3,13 +3,10 @@ layout: post
 title: netjsongraph.js – Google Summer of Code (GSoC) 2017 summary
 date: 2017-08-26 22:45:52
 categories:
-
 - Code
 - Visualization
 - Life
-
 tags:
-
 - Google Summer of Code
 - GSoC
 - Data Visualization
@@ -18,7 +15,6 @@ tags:
 - 数据可视化
 - 总结
 - Summary
-
 ---
 
 > Posted in medium: https://medium.com/@GeekPlux/netjsongraph-js-google-summer-of-code-gsoc-2017-summary-b0239f4eb8a9

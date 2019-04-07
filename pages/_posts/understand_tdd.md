@@ -3,15 +3,11 @@ layout: post
 title: 初识 TDD
 date: 2014-03-21 00:20:09
 categories:
-
 - Agile Development
-
 tags:
-
 - Agile Development
 - 笔记
 - Note
-
 ---
 
 > 原文地址：[https://geekplux.com/2014/03/21/understand_tdd.html](https://geekplux.com/2014/03/21/understand_tdd.html)

@@ -3,15 +3,11 @@ layout: post
 title: 为什么文章写得好的人都很厉害
 date: 2015-10-27 22:22:22
 categories:
-
 - Thought
-
 tags:
-
 - Writing
 - 感想
 - 写文章
-
 ---
 
 > 原文地址：[https://geekplux.com/2015/10/27/why-those-who-write-great-articles-is-so-powerful.html](https://geekplux.com/2015/10/27/why-those-who-write-great-articles-is-so-powerful.html)

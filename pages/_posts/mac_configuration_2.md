@@ -3,18 +3,14 @@ layout: post
 title: 菜鸟级 Mac 配置（二）
 date: 2014-03-03 13:50:50
 categories:
-
 - Tool
 - Mac
-
 tags:
-
 - 工具
 - Tool
 - Mac
 - 开发环境
 - Development Environment
-
 ---
 
 这一篇该讲讲我自己搭建开发环境遇到的事了。

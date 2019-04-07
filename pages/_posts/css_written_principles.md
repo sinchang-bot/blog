@@ -3,23 +3,17 @@ layout: post
 title: CSS 编写原则
 date: 2014-02-20 13:57:32
 categories:
-
 - Web
 - CSS
-
 tags:
-
 - Web
 - 总结
 - Summary
 - 笔记
 - Note
 - CSS
-
 photos:
-
 - https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/css-bad.jpg
-
 ---
 
 > 原文地址：[https://geekplux.com/2014/02/20/css_written_principles.html](https://geekplux.com/2014/02/20/css_written_principles.html)

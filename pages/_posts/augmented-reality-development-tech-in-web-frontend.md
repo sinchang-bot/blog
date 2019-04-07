@@ -3,12 +3,9 @@ layout: post
 title: Web 前端中的增强现实（AR）开发技术
 date: 2018-01-18 00:24:21
 categories:
-
 - Web
 - Augmented Reality
-
 tags:
-
 - Web
 - WebGL
 - three.js
@@ -17,7 +14,6 @@ tags:
 - 前端
 - 总结
 - Summary
-
 ---
 
 > 本文作者 [GeekPlux](http://geekplux.com/)，首发于[前端外刊评论-Web 前端中的增强现实（AR）开发技术](https://qianduan.group/posts/5a5f89cb0cf6b624d2239c65)，博客地址：[http://geekplux.com/2018/01/18/augmented-reality-development-tech-in-web-frontend.html](http://geekplux.com/2018/01/18/augmented-reality-development-tech-in-web-frontend.html)。注明作者和地址即可转载。

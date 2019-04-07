@@ -3,12 +3,9 @@ layout: post
 title: 如何在不规则多边形内均匀撒点的算法
 date: 2018-03-16 23:55:25
 categories:
-
 - Visualization
 - Algorithm
-
 tags:
-
 - Algorithm
 - 算法
 - Visualization
@@ -21,7 +18,6 @@ tags:
 - Data Visualization
 - Note
 - 笔记
-
 ---
 
 > 原文地址：[https://geekplux.com/2018/03/16/how-to-picking-uniform-points-in-irregular-polygon.html](https://geekplux.com/2018/03/16/how-to-picking-uniform-points-in-irregular-polygon.html)

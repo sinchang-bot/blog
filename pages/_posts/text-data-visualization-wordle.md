@@ -3,11 +3,8 @@ layout: post
 title: 文本数据可视化（上）——从 Wordle 谈起
 date: 2017-04-12 10:44:01
 categories:
-
 - Visualization
-
 tags:
-
 - Visualization
 - 可视化
 - 数据可视化
@@ -22,7 +19,6 @@ tags:
 - 笔记
 - 总结
 - Summary
-
 ---
 
 > 本文首发于：[GraphiCon 知乎专栏-文本数据可视化（上）——从 Wordle 谈起](https://zhuanlan.zhihu.com/p/26306683)。原文地址：[https://geekplux.com/2017/04/12/text-data-visualization-wordle.html](https://geekplux.com/2017/04/12/text-data-visualization-wordle.html)

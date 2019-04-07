@@ -3,17 +3,13 @@ layout: post
 title: Vim - 适合自己的，才是最好的
 date: 2015-06-06 20:28:21
 categories:
-
 - Tool
-
 tags:
-
 - Vim
 - Emacs
 - IDE
 - 工具
 - Tool
-
 ---
 
 > 原文地址：[https://geekplux.com/2015/06/06/vim-those-fit-yourself-are-the-best.html](https://geekplux.com/2015/06/06/vim-those-fit-yourself-are-the-best.html)

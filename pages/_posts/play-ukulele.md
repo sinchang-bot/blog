@@ -3,17 +3,13 @@ layout: post
 title: 轻松玩转 Ukulele
 date: 2015-01-05 23:54:00
 categories:
-
 - Ukulele
-
 tags:
-
 - 新技能
 - Skill
 - 乐器
 - Instrument
 - Ukulele
-
 ---
 
 > 原文地址：[https://geekplux.com/2015/01/05/play-ukulele.html](https://geekplux.com/2015/01/05/play-ukulele.html)

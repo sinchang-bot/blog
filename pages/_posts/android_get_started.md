@@ -3,20 +3,14 @@ layout: post
 title: Android 开发如何入门
 date: 2013-09-02 16:34:30
 categories:
-
 - Android
-
 tags:
-
 - Android
 - Guide
 - 入门
 - Development
-
 photos:
-
 - https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/android-studio.png
-
 ---
 
 这是我在知乎上的一个回答（[原文链接](http://www.zhihu.com/question/21565227/answer/18691177)）

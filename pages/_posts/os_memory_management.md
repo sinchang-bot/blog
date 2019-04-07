@@ -3,18 +3,14 @@ layout: post
 title: 操作系统总结——存储器管理
 date: 2013-01-05 19:53:25
 categories:
-
 - Computer Science
-
 tags:
-
 - Computer Science
 - 计算机科学
 - 总结
 - Summary
 - 笔记
 - Note
-
 ---
 
 存储器管理的主要任务是为多道程序的运行提供良好的环境，方便用户使用存储器，提高存储器的利用率以及能从逻辑上扩充内存。

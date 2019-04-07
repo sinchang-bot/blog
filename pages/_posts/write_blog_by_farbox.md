@@ -3,19 +3,15 @@ layout: post
 title: 写博客就用 FarBox
 date: 2013-08-08 15:12:11
 categories:
-
 - Tool
 - FarBox
-
 tags:
-
 - Discovery
 - FarBox
 - 工具
 - Tool
 - 博客
 - Blog
-
 ---
 
 早就在 V2EX 上看到 FarBox，之前一直没用，今天试了试，果然很清爽简洁，非常对我胃口，所以以后写文章，就靠你了！

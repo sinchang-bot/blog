@@ -3,16 +3,12 @@ layout: post
 title: Backbone View 之间通信的三种方式
 date: 2015-07-04 20:49:33
 categories:
-
 - Web
-
 tags:
-
 - Web
 - 译文
 - Translation
 - Backbone
-
 ---
 
 > 原文地址：[https://geekplux.com/2015/07/04/communicating-between-views-in-backbone.html](https://geekplux.com/2015/07/04/communicating-between-views-in-backbone.html)

@@ -3,12 +3,9 @@ layout: post
 title: 十年博客折腾历史
 date: 2018-09-26 19:52:21
 categories:
-
 - Tool
 - Life
-
 tags:
-
 - 生活
 - Life
 - 写文章
@@ -17,7 +14,6 @@ tags:
 - Tool
 - 博客
 - Blog
-
 ---
 
 断断续续写博客也多年了，如果从当年的 QQ 空间算起，那估计是有 10 年了。想以一篇流水账记录我折腾博客的历史。

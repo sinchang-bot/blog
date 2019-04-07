@@ -3,17 +3,13 @@ layout: post
 title: 如何新建一个 Cocos2d-x 项目
 date: 2013-10-17 16:43:30
 categories:
-
 - Cocos2d-x
-
 tags:
-
 - Cocos2d-x
 - 游戏开发
 - Game Development
 - Guide
 - 入门
-
 ---
 
 作为一名程序猿的，凡事都得从 Hello World 开始！接下来就由我来演示一遍如何创建一个 Hello World 项目。

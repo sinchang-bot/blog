@@ -3,11 +3,8 @@ layout: post
 title: 数据可视化基础——可视化流程
 date: 2017-01-01 17:35:36
 categories:
-
 - Visualization
-
 tags:
-
 - Visualization
 - 可视化
 - 数据可视化
@@ -22,7 +19,6 @@ tags:
 - 笔记
 - 总结
 - Summary
-
 ---
 
 > 本系列「数据可视化基础」文章共三篇，介绍可视化中最基础、最重要的一些概念、理论。这篇为第一篇，主要介绍[可视化流程](http://geekplux.com/2017/01/01/basics-of-data-visualization-the-process-model.html)，另两篇则主讲[数据模型](http://geekplux.com/2017/01/02/basics-of-data-visualization-data-model.html)和[视觉编码](http://geekplux.com/2017/01/03/basics-of-data-visualization-visual-encoding-principles.html)。

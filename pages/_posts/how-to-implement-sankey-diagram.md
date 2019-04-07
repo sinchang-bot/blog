@@ -3,11 +3,8 @@ layout: post
 title: 数据可视化之 Sankey 桑基图的实现
 date: 2018-08-28 00:17:17
 categories:
-
 - Visualization
-
 tags:
-
 - Visualization
 - 可视化
 - 数据可视化
@@ -19,7 +16,6 @@ tags:
 - Guide
 - 总结
 - Summary
-
 ---
 
 > 原文地址：[https://geekplux.com/2018/08/28/how-to-implement-sankey-diagram.html](https://geekplux.com/2018/08/28/how-to-implement-sankey-diagram.html)

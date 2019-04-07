@@ -3,20 +3,14 @@ layout: post
 title: 为什么我喜欢写代码
 date: 2015-11-13 23:04:22
 categories:
-
 - Life
-
 tags:
-
 - 生活
 - 感想
 - 情感
 - 代码
-
 photos:
-
 - https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/wallpaper-2641851.png
-
 ---
 
 > 原文地址：[https://geekplux.com/2015/11/13/why-i-like-coding.html](https://geekplux.com/2015/11/13/why-i-like-coding.html)

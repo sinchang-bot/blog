@@ -3,12 +3,9 @@ layout: post
 title: 'Vega-Lite: A Grammar of Interactive Graphics'
 date: 2016-11-02 16:16:16
 categories:
-
 - Research
 - Visualization
-
 tags:
-
 - Research
 - Visualization
 - 数据
@@ -18,7 +15,6 @@ tags:
 - Graphics
 - Vega
 - Vega-Lite
-
 ---
 
 > 在 InfoVis 2016 上，[UW 交互数据实验室](http://idl.cs.washington.edu/) 提出了一种新的交互数据可视化语法——Vega-Lite，获得了今年的 best paper，本文将根据其论文从多个角度介绍 Vega-Lite。[论文地址](http://idl.cs.washington.edu/papers/vega-lite/)。原文地址：[https://geekplux.com/2016/11/02/vega-lite-a-grammar-of-interactive-graphics.html](https://geekplux.com/2016/11/02/vega-lite-a-grammar-of-interactive-graphics.html)
