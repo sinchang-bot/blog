@@ -128,4 +128,6 @@ Hello World!
 
 ## License
 
-MIT.
+MIT © [GeekPlux](https://github.com/geekplux)
+
+> [Website](https://geekplux.com) · GitHub [@geekplux](https://github.com/geekplux) · Twitter [@geekplux](https://twitter.com/geekplux)

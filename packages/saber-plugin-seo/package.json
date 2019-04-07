@@ -1,0 +1,12 @@
+{
+  "name": "saber-plugin-seo",
+  "version": "0.0.1",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "saber-browser.js"
+  ],
+  "dependencies": {
+    "saber-theme-paper": "^0.0.1"
+  }
+}

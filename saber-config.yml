@@ -3,6 +3,8 @@ siteConfig:
   title: GeekPlux
   description: Web developer, open-source contributor and lifelong learner.
   avatar: /avatar.jpg
+  author: GeekPlux
+  keywords: Blog,Web,JavaScript,Code,Computer Science,Geek
   url: https://geekplux.com
   license:
     text: CC BY-NC-ND 4.0
@@ -15,6 +17,7 @@ siteConfig:
 permalinks:
   post: /:year/:month/:day/:slug.html
 plugins:
+  - resolve: saber-plugin-seo
   - resolve: saber-plugin-query-posts
     options:
       perPage: 7
@@ -27,7 +30,7 @@ plugins:
   - resolve: saber-plugin-baidu-analytics
     options:
       trackId: f3122f4261e8b3074f848be04f62f0c0
-theme: ./packages/saber-theme-paper/src
+theme: paper
 themeConfig:
   nav:
     - text: Donate
