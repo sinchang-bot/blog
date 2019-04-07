@@ -22,16 +22,6 @@ plugins:
 theme: ./packages/saber-theme-sea/src
 themeConfig:
   nav:
-    - text: Home
-      link: /
-    - text: About
-      link: /about.html
-    - text: Wiki
-      link: https://wiki.geekplux.com
-    - text: Publication
-      link: /publication
-    - text: Talk
-      link: /talk
     - text: Donate
       link: https://donate.geekplux.com
     - text: About
@@ -40,6 +30,12 @@ themeConfig:
       link: /about
     - text: 扯淡集
       link: /gab
+    - text: Wiki
+      link: https://wiki.geekplux.com
+    - text: Talk
+      link: /talk
+    - text: Publication
+      link: /publications
   social:
     # dribbble: username
     # facebook: geekplux

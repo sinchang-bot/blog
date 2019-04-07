@@ -6,14 +6,12 @@
         <div class="site-info">
           <saber-link class="title" rel="author" to="/">{{ $siteConfig.title }}</saber-link>
           <p class="description">{{ $siteConfig.description }}</p>
-          <div :class="{expanded: expanded}" class="nav-links" v-if="$themeConfig.nav">
-            <saber-link
-              :key="index"
-              class="nav-link"
-              v-for="(navItem, index) in $themeConfig.nav"
-              :to="navItem.link"
-            >{{ navItem.text }}</saber-link>
-          </div>
+          <ul :class="{expanded: expanded}" class="nav-links" v-if="$themeConfig.nav">
+            <li class="nav-link" :key="index" v-for="(navItem, index) in $themeConfig.nav">
+              <a v-if="/^https?/.test(navItem.link)" :href="navItem.link">{{ navItem.text }}</a>
+              <saber-link v-else :to="navItem.link">{{ navItem.text }}</saber-link>
+            </li>
+          </ul>
         </div>
         <div class="author-info">
           <img v-if="$siteConfig.avatar" class="avatar" :src="$siteConfig.avatar">
@@ -28,7 +26,9 @@
 @import '../styles/variables.scss';
 
 header {
-  padding: 0 10vw;
+  width: 80vw;
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 .domain {
@@ -53,9 +53,14 @@ header {
 .nav-links {
   font-size: 16px;
   font-style: italic;
+  display: flex;
   a {
+    text-decoration: none;
     margin-right: 10px;
     border-bottom: 1px solid $gray-light;
+    &:hover {
+      border-bottom-color: #000;
+    }
   }
 }
 
@@ -91,8 +96,14 @@ header {
 
 @media screen and (min-width: 600px) {
   nav {
-    button {
-      display: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .author-info {
+      position: relative;
+      top: initial;
+      right: initial;
     }
   }
 }
