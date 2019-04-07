@@ -1,5 +1,6 @@
 import 'modern-normalize';
 import 'typo.css';
+import 'prismjs/themes/prism.css';
 import './styles/global.scss';
 
 export default ({ router }) => {

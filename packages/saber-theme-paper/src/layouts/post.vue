@@ -63,6 +63,10 @@ article.typo {
       }
     }
   }
+
+  code {
+    font-size: 14px;
+  }
 }
 </style>
 

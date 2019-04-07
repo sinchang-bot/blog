@@ -19,7 +19,7 @@ plugins:
   - resolve: saber-plugin-generate-feed
     options:
       atomFeed: true
-theme: ./packages/saber-theme-sea/src
+theme: ./packages/saber-theme-paper/src
 themeConfig:
   nav:
     - text: Donate
@@ -51,6 +51,8 @@ themeConfig:
     # googleplus: username
     rss: true
   disqus: geekplux
+markdown:
+  highlighter: prism
 # build:
 #   loaderOptions:
 #     sass:
