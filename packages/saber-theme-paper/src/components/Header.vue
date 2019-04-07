@@ -53,7 +53,9 @@ header {
 .nav-links {
   font-size: 16px;
   font-style: italic;
-  display: flex;
+  .nav-link {
+    display: inline-block;
+  }
   a {
     text-decoration: none;
     margin-right: 10px;
