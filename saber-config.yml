@@ -2,7 +2,7 @@ siteConfig:
   domain: geekplux.com
   title: GeekPlux
   description: Web developer, open-source contributor and lifelong learner.
-  avatar: ./avatar.jpg
+  avatar: /avatar.jpg
   url: https://geekplux.com
   license:
     text: CC BY-NC-ND 4.0

@@ -57,7 +57,7 @@ Work life balance 是我一直在找寻的。没有自己的时间，我是得�
 
 去年 10 月份我领养了一只猫儿子，感谢它填补了我寂寞的生活。领养的历程极其恶心，我暂且不表，总之最后遇到一位好心的姑娘，当天说定我就直奔过去取猫，一刻也不耽搁。它是一直纯白色的狮子猫，还有点波斯和金吉拉的混血，所以毛特别长。我给它起名叫朝朝，是因为将来还想养一只深色猫叫暮暮。渐渐它融入了我的生活，异常粘人，每天回家都会在门口等着我开门，然后扑上来蹭蹭，再大的不开心这一瞬间也会化为乌有。养了只猫就像养了个孩子，尤其是出门几天的时候，生怕它一只猫在家吃不好睡不好。值得庆幸的是它一直非常健康，也非常乖，洗澡从来不叫不乱动，除了偶尔把我的毛巾扔马桶里、除了偶尔把杯子打翻、除了床被抓烂、除了家里到处都是毛、除了被子完全变成猫窝、除了我经常过敏、鼻炎不断……
 
-![cat](http://geekpluxblog.oss-cn-hongkong.aliyuncs.com/cat.jpg)
+![cat](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/cat.jpg)
 
 #### 茶余饭后
 
@@ -73,7 +73,7 @@ Work life balance 是我一直在找寻的。没有自己的时间，我是得�
 
 除此之外，今年和一群天南地北的“网友”聚了两次，聊了聊自由职业和一些创业小项目，最后他们还真的一起干活。然后之前的同事和发小也来了杭州，经常见面，让我觉得在杭州终于有了老朋友。总而言之，18 年我不是单打独斗了。
 
-![Shanghai](http://geekpluxblog.oss-cn-hongkong.aliyuncs.com/IMG_9828.jpg)
+![Shanghai](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/IMG_9828.jpg)
 
 ## 输入输出，数字量化
 
@@ -104,7 +104,7 @@ Work life balance 是我一直在找寻的。没有自己的时间，我是得�
 
 输出少对我来说也是一种焦虑，我记得 7，8 月份的时候我的焦虑到达了顶峰，我觉得自己真是一无是处，工作和生活都是。那段时间睡觉都在想 idea，想怎么去实现，实现以后怎么迭代，常常想的兴奋到睡不着。但醒来由于睡的太少根本无暇真正去做。这种晚上挣扎着睡不着想方向的日子一直持续到 9 月份才结束，应该是去了趟广州，和上文提到的几个朋友聊了聊之后终于解脱。
 
-![Google analytics](http://geekpluxblog.oss-cn-hongkong.aliyuncs.com/blog-ga.jpg)
+![Google analytics](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/blog-ga.jpg)
 
 ## 投资
 

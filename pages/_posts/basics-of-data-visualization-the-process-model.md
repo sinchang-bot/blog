@@ -80,7 +80,7 @@ tags:
 
 另一种模型是嵌套模型：
 
-![Munzner T. A Nested Process Model for Visualization Design and Validation[J]. IEEE Transactions on Visualization & Computer Graphics, 2009, 15(6):921-8.](http://geekpluxblog.oss-cn-hongkong.aliyuncs.com/basics-of-data-visualization/nested-model.png)
+![Munzner T. A Nested Process Model for Visualization Design and Validation[J]. IEEE Transactions on Visualization & Computer Graphics, 2009, 15(6):921-8.](https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/basics-of-data-visualization/nested-model.png)
 
 嵌套模型的上半部分基本上就是我们之前说的分析、处理两步，下半部分是对可视化结果的各类验证。本质上就是一个验证加迭代的过程。我们知道很多事都不是一蹴而就的，需要不断迭代，所以有人提出了循环模型。
 
