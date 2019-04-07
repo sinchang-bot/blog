@@ -1,6 +1,6 @@
 # saber-theme-paper
 
-[![npm](https://badgen.net/npm/v/saber-theme-paper)](https://npm.im/saber-theme-paper) [![circleci](https://badgen.net/circleci/github/paper/saber-theme-paper/master)](https://circleci.com/gh/paper/saber-theme-paper)
+[![npm](https://badgen.net/npm/v/saber-theme-paper)](https://npm.im/saber-theme-paper)
 
 > A simple theme like read on a paper.
 

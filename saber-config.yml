@@ -30,7 +30,8 @@ plugins:
   - resolve: saber-plugin-baidu-analytics
     options:
       trackId: f3122f4261e8b3074f848be04f62f0c0
-theme: paper
+# theme: paper
+theme: ./packages/saber-theme-paper/src
 themeConfig:
   nav:
     - text: Donate

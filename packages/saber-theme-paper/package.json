@@ -8,9 +8,7 @@
   ],
   "scripts": {
     "build": "vue-compile src -o dist",
-    "prepublishOnly": "yarn build",
-    "dev:example": "saber example",
-    "generate:example": "saber generate example"
+    "prepublishOnly": "yarn build"
   },
   "devDependencies": {
     "node-sass": "^4.11.0",
@@ -23,14 +21,13 @@
     "webpack": "^4.29.6"
   },
   "dependencies": {
-    "disqusjs": "^1.2.3",
     "modern-normalize": "^0.5.0",
     "tinydate": "^1.0.1"
   },
   "keywords": [
     "saber",
     "saber-theme",
-    "typing",
+    "paper",
     "theme"
   ]
 }
