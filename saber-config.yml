@@ -21,6 +21,12 @@ plugins:
   - resolve: saber-plugin-generate-feed
     options:
       atomFeed: true
+  - resolve: saber-plugin-google-analytics
+    options:
+      trackId: UA-46481966-2
+  - resolve: saber-plugin-baidu-analytics
+    options:
+      trackId: f3122f4261e8b3074f848be04f62f0c0
 theme: ./packages/saber-theme-paper/src
 themeConfig:
   nav:

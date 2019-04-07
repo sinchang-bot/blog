@@ -1,3 +1,3 @@
-import svg from '../svg/minima-social-icons.svg'
+import svg from '../svg/social-icons.svg'
 
 export default id => `${svg}#${id}`
