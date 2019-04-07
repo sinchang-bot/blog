@@ -12,6 +12,8 @@ siteConfig:
   #   nextPage: 下一页
   #   prevPost: 上一篇
   #   nextPage: 下一篇
+permalinks:
+  post: /:year/:month/:day/:slug.html
 plugins:
   - resolve: saber-plugin-query-posts
     options:
