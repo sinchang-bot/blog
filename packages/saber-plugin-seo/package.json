@@ -1,0 +1,9 @@
+{
+  "name": "saber-plugin-seo",
+  "version": "0.1.1",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "saber-browser.js"
+  ]
+}

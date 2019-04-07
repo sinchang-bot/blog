@@ -1,0 +1,71 @@
+siteConfig:
+  domain: geekplux.com
+  title: GeekPlux
+  description: Web developer, open-source contributor and lifelong learner.
+  avatar: /avatar.jpg
+  author: GeekPlux
+  keywords: Blog,Web,JavaScript,Code,Computer Science,Geek
+  url: https://geekplux.com
+  license:
+    text: CC BY-NC-ND 4.0
+    link: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  # pagination:
+  #   prevPage: 上一页
+  #   nextPage: 下一页
+  #   prevPost: 上一篇
+  #   nextPost: 下一篇
+permalinks:
+  post: /:year/:month/:day/:slug.html
+plugins:
+  - resolve: saber-plugin-seo
+  - resolve: saber-plugin-query-posts
+    options:
+      perPage: 7
+  - resolve: saber-plugin-generate-feed
+    options:
+      atomFeed: true
+  - resolve: saber-plugin-google-analytics
+    options:
+      trackId: UA-46481966-2
+  - resolve: saber-plugin-baidu-analytics
+    options:
+      trackId: f3122f4261e8b3074f848be04f62f0c0
+# theme: paper
+theme: ./packages/saber-theme-paper/src
+themeConfig:
+  nav:
+    - text: Donate
+      link: https://donate.geekplux.com
+    - text: About
+      link: https://about.geekplux.com
+    - text: 关于
+      link: /about
+    - text: 扯淡集
+      link: /gab
+    - text: Wiki
+      link: https://wiki.geekplux.com
+    - text: Talk
+      link: /talk
+    - text: Publication
+      link: /publications
+  social:
+    # dribbble: username
+    # facebook: geekplux
+    # flickr: username
+    github: geekplux
+    instagram: geekplux
+    linkedin: geekplux
+    # pinterest: username
+    twitter: geekplux
+    # youtube: username
+    # telegram: username
+    # microdotblog: geekplux
+    # googleplus: username
+    rss: true
+  disqus: geekplux
+markdown:
+  highlighter: prism
+# build:
+#   loaderOptions:
+#     sass:
+#       data: '@import "../styles/variables.scss";'
