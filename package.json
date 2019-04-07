@@ -13,6 +13,8 @@
     "saber-plugin-generate-feed": "^0.1.2",
     "saber-plugin-google-analytics": "^0.0.3",
     "saber-plugin-query-posts": "^0.0.7",
+    "saber-plugin-seo": "^0.1.0",
+    "saber-theme-paper": "^0.1.0",
     "typo.css": "^2.1.2"
   },
   "devDependencies": {
