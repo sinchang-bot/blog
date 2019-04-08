@@ -3,13 +3,25 @@
     <article class="post typo" itemscope itemtype="http://schema.org/BlogPosting">
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">{{ page.attributes.title }}</h1>
-        <p class="post-meta">
+        <div class="post-meta">
           <time
             class="dt-published"
             :datetime="page.attributes.createdAt"
             itemprop="datePublished"
           >{{ formatDate(page.attributes.createdAt) }}</time>
-        </p>
+          <div class="category">
+            <span class="label">Category:</span>
+            <span
+              class="categories"
+              v-for="category in page.attributes.categories"
+              :key="category.toString()"
+            >, {{category}}</span>
+          </div>
+          <div class="tag">
+            <span class="label">Tags:</span>
+            <span class="tags" v-for="tag in page.attributes.tags" :key="tag.toString()">, {{tag}}</span>
+          </div>
+        </div>
       </header>
 
       <div class="post-content" itemprop="articleBody">
@@ -37,7 +49,10 @@
 </template>
 
 <style lang="scss">
+@import '../styles/variables.scss';
+
 article.typo {
+  position: relative;
   font-size: 16px;
 
   a {
@@ -66,6 +81,22 @@ article.typo {
 
   code {
     font-size: 14px;
+  }
+
+  .post-header {
+    margin-bottom: 60px;
+  }
+
+  .post-meta {
+    @extend %post-meta;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .label {
+    color: $gray;
   }
 }
 </style>

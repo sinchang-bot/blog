@@ -65,13 +65,11 @@
 .post {
   margin-bottom: 2em;
 }
+
 .post-meta {
-  display: block;
-  color: $gray-light;
-  font-size: 12px;
-  font-style: italic;
-  font-weight: lighter;
+  @extend %post-meta
 }
+
 .post-link {
   position: relative;
   text-decoration: none;

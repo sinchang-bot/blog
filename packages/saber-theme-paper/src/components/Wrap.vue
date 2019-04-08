@@ -10,6 +10,7 @@
 
 <style lang="scss" scoped>
 .content {
+  position: relative;
   padding: 50px;
   width: 80vw;
   max-width: 750px;
