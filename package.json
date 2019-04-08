@@ -14,7 +14,7 @@
     "saber-plugin-google-analytics": "^0.0.3",
     "saber-plugin-query-posts": "^0.0.7",
     "saber-plugin-seo": "^0.1.2",
-    "saber-theme-paper": "^0.1.5",
+    "saber-theme-paper": "^0.1.6",
     "typo.css": "^2.1.2"
   },
   "devDependencies": {
