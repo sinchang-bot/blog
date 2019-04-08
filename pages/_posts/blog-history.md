@@ -34,7 +34,7 @@ tags:
 
 我慢慢觉得 Farbox 太小白了，不够 Geek，于是我又萌生折腾的想法。我先是 Google 了一大圈，然后去知乎提了个问题：[如何拥有一个完全免费的博客？](https://www.zhihu.com/question/20688782)，整个过程让我学习到了很多 web 知识，包括服务器，虚拟主机，DNS，域名等。最后我决定用 [Hexo](https://hexo.io/zh-cn/) + [GitHub Pages](https://pages.github.com/) 的方案来搭建博客。
 
-虽然当时已经 13 年了，但我还是第一次真正把 GitHub 用起来。我学会了 Git，学会了如何 commit，push 甚至 pull request。Hexo 的使用，让我接触到了 Node.js，我犹记得当时去图书馆借了一本[《Node.js 开发指南》](https://book.douban.com/subject/10789820/)，作者是 [byvoid](https://www.byvoid.com/)，同样的年纪，同是 10 级大学生，他在出书，我在拜读他写的书。总之我踉踉跄跄地总算是把博客搭起来了，之后的折腾就是主题上的折腾了，仿佛又回到了 QQ 空间的年代。
+虽然当时已经 13 年了，但我还是第一次真正把 GitHub 用起来。我学会了 Git，学会了如何 commit，push 甚至 pull request。Hexo 的使用，让我接触到了 Node.js，我犹记得当时去图书馆借了一本[《Node.js 开发指南》](https://book.douban.com/subject/10789820/)，作者是 [byvoid](https://www.byvoid.com/)，同样的年纪，同是 10 级大学生，他在出书，我在拜读他写的书。总之我踉踉跄跄地总算是把博客搭起来了，之后的折腾就是主题上的折腾了，仿佛又回到了 QQ 空间的年代。
 
 再后来由于 GitHub Pages 的访问速度在国内越来越慢，我在 GitCafe （后来被 [Coding](https://coding.net/) 收购） 上也搭了一套，通过 DNS 指定国内外两个不同渠道。我自己也花两天时间写了个 Hexo 主题：[Typing](https://github.com/geekplux/hexo-theme-typing)，就是我现在用的主题，很素，我故意把字体设置成楷体，字粗设置得很细，有种清淡的感觉，我很喜欢，一直沿用至今。
 
