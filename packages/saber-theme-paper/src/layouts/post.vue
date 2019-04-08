@@ -84,19 +84,28 @@ article.typo {
   }
 
   .post-header {
-    margin-bottom: 60px;
+    margin-bottom: 20px;
   }
 
   .post-meta {
     @extend %post-meta;
-    text-align: right;
-    position: absolute;
-    right: 0;
-    top: 0;
   }
 
   .label {
     color: $gray;
+  }
+
+  @media screen and (min-width: 600px) {
+    .post-header {
+      margin-bottom: 60px;
+    }
+
+    .post-meta {
+      text-align: right;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
   }
 }
 </style>
