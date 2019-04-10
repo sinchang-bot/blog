@@ -8,6 +8,13 @@ permalink: /gab
 什么胡思乱想都往里写，每篇基本上都是一气呵成
 虽然没有博客里的文章正式，但也是我的一些所见所想。
 
+
+- 2019-04-08 [没有深度的近半年投资小结](https://mp.weixin.qq.com/s?__biz=MjM5ODk1MjgwMQ==&mid=2649120651&idx=1&sn=ed10ef00d2ff8a496b61e483623ee12e&chksm=bed0158589a79c9303c05fb4a982d7bf3d78a73057778f5718578468a15915b0331fa8bdddfa&token=285204141&lang=zh_CN#rd)
+- 2019-04-02 [给想转行作程序员的人泼一盆冷水](https://mp.weixin.qq.com/s?__biz=MjM5ODk1MjgwMQ==&mid=2649120644&idx=1&sn=b7a4e6e778799d06613b63c6ef0c3e05&chksm=bed0158a89a79c9cdc74597537c23556d1ba06f378284b7ce5b20102518201320727ba44c9ae&token=285204141&lang=zh_CN#rd)
+- 2019-03-28 [阿甘、许三多和钝感力](https://mp.weixin.qq.com/s?__biz=MjM5ODk1MjgwMQ==&mid=2649120638&idx=1&sn=8c6df767fc3f182e36cba7e46350b365&chksm=bed0157089a79c669c24d10cd68d8be365b1bd28195fd54c1ae96b743dcb123a45fc41115b92&token=285204141&lang=zh_CN#rd)
+- 2019-03-18 [算法优化人生之 —— 调度算法](https://mp.weixin.qq.com/s?__biz=MjM5ODk1MjgwMQ==&mid=2649120632&idx=1&sn=63ca6c336cd0dccbd5fcd78077a12168&chksm=bed0157689a79c60ca583e37b6492e371a235ea230a28baa7166ef95a6e8af727c50a8f16ae4&token=285204141&lang=zh_CN#rd)
+- 2019-02-24 [杭州最适合闲来溜达的几条路线](https://mp.weixin.qq.com/s?__biz=MjM5ODk1MjgwMQ==&mid=2649120616&idx=1&sn=2a0c761887a1c9b17bcb2fc53ce3908a&chksm=bed0156689a79c705993438df1bc6097c49376779d20b21dbb8526d0c58b5deea9b59b4bb2de&token=285204141&lang=zh_CN#rd)
+- 2019-01-04 [一个帮你重新定义名词的网站](https://mp.weixin.qq.com/s?__biz=MjM5ODk1MjgwMQ==&mid=2649120600&idx=1&sn=30215ff3f33bc6804128f664e7e1c559&chksm=bed0155689a79c4034dada338aae7bc586d8c7bb23f97930627d280097de8b94e894b5c7647b&token=285204141&lang=zh_CN#rd)
 - 2018-11-16 [一篇文章也能翻江倒海](https://mp.weixin.qq.com/s?__biz=MjM5ODk1MjgwMQ==&mid=2649120588&idx=1&sn=64982bc33cc20bd3bd314648f824674c&chksm=bed0154289a79c54a23b7a6140a7eac6baf6798d612c55fa53b8a292eaacde949647e9e8a709&token=477764916&lang=zh_CN#rd)
 - 2018-10-30 [突闻金庸先生逝世有感](https://mp.weixin.qq.com/s?__biz=MjM5ODk1MjgwMQ==&mid=2649120582&idx=1&sn=36998921053189f23adf1973b8b6c5da&chksm=bed0154889a79c5ef9d617eb0018984be20f2eb55103bbde9a9526aa73ede45b203c10a46a44&token=2107800721&lang=zh_CN#rd)
 - 2017-02-23 [压力、焦虑和拖延症](https://mp.weixin.qq.com/s?__biz=MjM5ODk1MjgwMQ==&mid=2649120552&idx=1&sn=dc9d4210dbb6adda389e35a8db8f4650&chksm=bed0152689a79c3075c74b4240b1cbf8a40d0b91c8ec314287e4d0007776dfb46771b46639d8#rd)
