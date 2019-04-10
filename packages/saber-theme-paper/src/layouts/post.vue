@@ -9,18 +9,6 @@
             :datetime="page.attributes.createdAt"
             itemprop="datePublished"
           >{{ formatDate(page.attributes.createdAt) }}</time>
-          <div class="category">
-            <span class="label">Category:</span>
-            <span
-              class="categories"
-              v-for="category in page.attributes.categories"
-              :key="category.toString()"
-            >, {{category}}</span>
-          </div>
-          <div class="tag">
-            <span class="label">Tags:</span>
-            <span class="tags" v-for="tag in page.attributes.tags" :key="tag.toString()">, {{tag}}</span>
-          </div>
         </div>
       </header>
 
@@ -28,6 +16,20 @@
         <slot name="default"/>
       </div>
       <a class="u-url" :href="page.attributes.permalink" hidden></a>
+      <div class="post-meta">
+        <div class="category">
+          <span class="label">Category:</span>
+          <span
+            class="categories"
+            v-for="category in page.attributes.categories"
+            :key="category.toString()"
+          >, {{category}}</span>
+        </div>
+        <div class="tag">
+          <span class="label">Tags:</span>
+          <span class="tags" v-for="tag in page.attributes.tags" :key="tag.toString()">, {{tag}}</span>
+        </div>
+      </div>
       <div class="pagination">
         <router-link class="prev" v-if="page.prevPost" :to="page.prevPost.attributes.permalink">
           <strong>{{ $siteConfig.pagination && $siteConfig.pagination.prevPost || '上一篇' }}</strong>
@@ -83,12 +85,9 @@ article.typo {
     font-size: 14px;
   }
 
-  .post-header {
-    margin-bottom: 20px;
-  }
-
   .post-meta {
     @extend %post-meta;
+    margin-bottom: 20px;
   }
 
   .label {
@@ -96,15 +95,8 @@ article.typo {
   }
 
   @media screen and (min-width: 600px) {
-    .post-header {
-      margin-bottom: 60px;
-    }
-
     .post-meta {
-      text-align: right;
-      position: absolute;
-      right: 0;
-      top: 0;
+      margin-bottom: 30px;
     }
   }
 }

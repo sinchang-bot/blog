@@ -15,7 +15,7 @@ siteConfig:
   #   prevPost: 上一篇
   #   nextPost: 下一篇
 permalinks:
-  post: /:year/:month/:day/:slug.html
+  post: /:year/:month/:day/:slug
 plugins:
   - resolve: saber-plugin-seo
   - resolve: saber-plugin-query-posts
